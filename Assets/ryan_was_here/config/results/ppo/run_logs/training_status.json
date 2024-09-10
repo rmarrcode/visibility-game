@@ -1,0 +1,53 @@
+{
+    "AgentA": {
+        "elo": 1197.485581316957,
+        "checkpoints": [
+            {
+                "steps": 144537,
+                "file_path": "results\\ppo\\AgentA\\AgentA-144537.onnx",
+                "reward": 0.0,
+                "creation_time": 1725070600.5389636,
+                "auxillary_file_paths": [
+                    "results\\ppo\\AgentA\\AgentA-144537.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 144537,
+            "file_path": "results\\ppo\\AgentA.onnx",
+            "reward": 0.0,
+            "creation_time": 1725070600.5389636,
+            "auxillary_file_paths": [
+                "results\\ppo\\AgentA\\AgentA-144537.pt"
+            ]
+        }
+    },
+    "AgentB": {
+        "elo": 1200.0,
+        "checkpoints": [
+            {
+                "steps": 0,
+                "file_path": "results\\ppo\\AgentB\\AgentB-0.onnx",
+                "reward": null,
+                "creation_time": 1725070600.5719635,
+                "auxillary_file_paths": [
+                    "results\\ppo\\AgentB\\AgentB-0.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 0,
+            "file_path": "results\\ppo\\AgentB.onnx",
+            "reward": null,
+            "creation_time": 1725070600.5719635,
+            "auxillary_file_paths": [
+                "results\\ppo\\AgentB\\AgentB-0.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

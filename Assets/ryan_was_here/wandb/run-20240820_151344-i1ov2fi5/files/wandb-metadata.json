@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.0",
+    "heartbeatAt": "2024-08-20T22:13:44.827506",
+    "startedAt": "2024-08-20T22:13:44.088018",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/rmarrcode/ml-agents-dodgeball-env-ICT.git",
+        "commit": "89e35869294c5a171be4b77b52c4f187ea05753c"
+    },
+    "email": "r.marr747@gmail.com",
+    "root": "C:/Users/rmarr/Documents/ml-agents-dodgeball-env-ICT",
+    "host": "assos",
+    "username": "rmarr",
+    "executable": "c:\\Users\\rmarr\\Documents\\python-envs\\3.7.0\\Scripts\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3302.0,
+        "min": 0.0,
+        "max": 3302.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3302.0,
+            "min": 0.0,
+            "max": 3302.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 953.2561683654785,
+            "used": 899.5778503417969
+        }
+    },
+    "gpu": "GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "GeForce RTX 3060 Laptop GPU",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.708782196044922
+    }
+}

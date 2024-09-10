@@ -1,0 +1,114 @@
+                        ▄▄▄▓▓▓▓
+                   ╓▓▓▓▓▓▓█▓▓▓▓▓
+              ,▄▄▄m▀▀▀'  ,▓▓▓▀▓▓▄                           ▓▓▓  ▓▓▌
+            ▄▓▓▓▀'      ▄▓▓▀  ▓▓▓      ▄▄     ▄▄ ,▄▄ ▄▄▄▄   ,▄▄ ▄▓▓▌▄ ▄▄▄    ,▄▄
+          ▄▓▓▓▀        ▄▓▓▀   ▐▓▓▌     ▓▓▌   ▐▓▓ ▐▓▓▓▀▀▀▓▓▌ ▓▓▓ ▀▓▓▌▀ ^▓▓▌  ╒▓▓▌
+        ▄▓▓▓▓▓▄▄▄▄▄▄▄▄▓▓▓      ▓▀      ▓▓▌   ▐▓▓ ▐▓▓    ▓▓▓ ▓▓▓  ▓▓▌   ▐▓▓▄ ▓▓▌
+        ▀▓▓▓▓▀▀▀▀▀▀▀▀▀▀▓▓▄     ▓▓      ▓▓▌   ▐▓▓ ▐▓▓    ▓▓▓ ▓▓▓  ▓▓▌    ▐▓▓▐▓▓
+          ^█▓▓▓        ▀▓▓▄   ▐▓▓▌     ▓▓▓▓▄▓▓▓▓ ▐▓▓    ▓▓▓ ▓▓▓  ▓▓▓▄    ▓▓▓▓`
+            '▀▓▓▓▄      ^▓▓▓  ▓▓▓       └▀▀▀▀ ▀▀ ^▀▀    `▀▀ `▀▀   '▀▀    ▐▓▓▌
+               ▀▀▀▀▓▄▄▄   ▓▓▓▓▓▓,                                      ▓▓▓▓▀
+                   `▀█▓▓▓▓▓▓▓▓▓▌
+                        ¬`▀▀▀█▓
+ Version information:
+  ml-agents: 0.27.0,
+  ml-agents-envs: 0.28.0,
+  Communicator API: 1.5.0,
+  PyTorch: 1.7.1+cu110
+[WARNING] Deleting TensorBoard data events.out.tfevents.1724883871.assos.23864.0 that was left over from a previous run.
+[WARNING] Deleting TensorBoard data events.out.tfevents.1724883871.assos.23864.0.meta that was left over from a previous run.
+[INFO] Hyperparameters for behavior name AgentA:
+	trainer_type:	ppo
+	hyperparameters:	
+	  batch_size:	1024
+	  buffer_size:	10240
+	  learning_rate:	0.0003
+	  beta:	0.005
+	  epsilon:	0.2
+	  lambd:	0.95
+	  num_epoch:	3
+	  learning_rate_schedule:	linear
+	network_settings:	
+	  normalize:	False
+	  hidden_units:	128
+	  num_layers:	2
+	  vis_encode_type:	simple
+	  memory:	None
+	  goal_conditioning_type:	hyper
+	reward_signals:	
+	  extrinsic:	
+	    gamma:	0.99
+	    strength:	1.0
+	    network_settings:	
+	      normalize:	False
+	      hidden_units:	128
+	      num_layers:	2
+	      vis_encode_type:	simple
+	      memory:	None
+	      goal_conditioning_type:	hyper
+	init_path:	None
+	keep_checkpoints:	5
+	checkpoint_interval:	500000
+	max_steps:	500000
+	time_horizon:	64
+	summary_freq:	50000
+	threaded:	False
+	self_play:	
+	  save_steps:	500000
+	  team_change:	1000000
+	  swap_steps:	200000
+	  window:	100
+	  play_against_latest_model_ratio:	0.5
+	  initial_elo:	1200.0
+	behavioral_cloning:	None
+[WARNING] The max steps of the GhostTrainer for behavior name AgentA is less than team change. This team will not face                 opposition that has been trained if the opposition is managed by a different GhostTrainer as in an                 asymmetric game.
+[INFO] Hyperparameters for behavior name AgentB:
+	trainer_type:	ppo
+	hyperparameters:	
+	  batch_size:	1024
+	  buffer_size:	10240
+	  learning_rate:	0.0003
+	  beta:	0.005
+	  epsilon:	0.2
+	  lambd:	0.95
+	  num_epoch:	3
+	  learning_rate_schedule:	linear
+	network_settings:	
+	  normalize:	False
+	  hidden_units:	128
+	  num_layers:	2
+	  vis_encode_type:	simple
+	  memory:	None
+	  goal_conditioning_type:	hyper
+	reward_signals:	
+	  extrinsic:	
+	    gamma:	0.99
+	    strength:	1.0
+	    network_settings:	
+	      normalize:	False
+	      hidden_units:	128
+	      num_layers:	2
+	      vis_encode_type:	simple
+	      memory:	None
+	      goal_conditioning_type:	hyper
+	init_path:	None
+	keep_checkpoints:	5
+	checkpoint_interval:	500000
+	max_steps:	500000
+	time_horizon:	64
+	summary_freq:	50000
+	threaded:	False
+	self_play:	
+	  save_steps:	500000
+	  team_change:	1000000
+	  swap_steps:	200000
+	  window:	100
+	  play_against_latest_model_ratio:	0.5
+	  initial_elo:	1200.0
+	behavioral_cloning:	None
+[WARNING] The max steps of the GhostTrainer for behavior name AgentB is less than team change. This team will not face                 opposition that has been trained if the opposition is managed by a different GhostTrainer as in an                 asymmetric game.
+[INFO] Learning was interrupted. Please wait while the graph is generated.
+[INFO] Exported results\ppo\AgentA\AgentA-2800.onnx
+[INFO] Copied results\ppo\AgentA\AgentA-2800.onnx to results\ppo\AgentA.onnx.
+[INFO] Exported results\ppo\AgentB\AgentB-2800.onnx
+[INFO] Copied results\ppo\AgentB\AgentB-2800.onnx to results\ppo\AgentB.onnx.
