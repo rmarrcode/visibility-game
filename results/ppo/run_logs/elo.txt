@@ -1,0 +1,1350 @@
+[
+   "INFO"
+]"Hider. Step":"50000. Time Elapsed":"66.151 s. Mean Reward":"0.404. Std of Reward":"0.915. Training. ELO":1208.574.[
+   721/1146
+][
+   "INFO"
+]"Hider. Step":"100000. Time Elapsed":"128.546 s. Mean Reward":"0.961. Std of Reward":"0.276. Training. ELO":1240.125.[
+   "INFO"
+]"Hider. Step":"150000. Time Elapsed":"190.782 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1278.130.[
+   "INFO"
+]"Hider. Step":"200000. Time Elapsed":"252.567 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1309.789.[
+   "INFO"
+]"Hider. Step":"250000. Time Elapsed":"314.237 s. Mean Reward":"0.958. Std of Reward":"0.286. Training. ELO":1334.494.[
+   "INFO"
+]"Hider. Step":"300000. Time Elapsed":"374.270 s. Mean Reward":"0.978. Std of Reward":"0.207. Training. ELO":1353.890.[
+   "INFO"
+]"Hider. Step":"350000. Time Elapsed":"436.406 s. Mean Reward":"0.959. Std of Reward":"0.284. Training. ELO":1371.364.[
+   "INFO"
+]"Hider. Step":"400000. Time Elapsed":"497.737 s. Mean Reward":"0.979. Std of Reward":"0.203. Training. ELO":1386.662.[
+   "INFO"
+]"Hider. Step":"450000. Time Elapsed":"560.322 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1401.388.[
+   "INFO"
+]"Hider. Step":"500000. Time Elapsed":"622.346 s. Mean Reward":"0.980. Std of Reward":"0.200. Training. ELO":1415.225.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-499967.onnx[
+   "INFO"
+]"Hider. Step":"550000. Time Elapsed":"685.022 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1427.540.[
+   "INFO"
+]"Hider. Step":"600000. Time Elapsed":"747.563 s. Mean Reward":"0.960. Std of Reward":"0.279. Training. ELO":1438.529.[
+   "INFO"
+]"Hider. Step":"650000. Time Elapsed":"810.459 s. Mean Reward":"0.979. Std of Reward":"0.202. Training. ELO":1448.147.[
+   "INFO"
+]"Hider. Step":"700000. Time Elapsed":"872.621 s. Mean Reward":"0.961. Std of Reward":"0.277. Training. ELO":1456.701.[
+   "INFO"
+]"Hider. Step":"750000. Time Elapsed":"935.426 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1464.877.[
+   "INFO"
+]"Hider. Step":"800000. Time Elapsed":"998.389 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1473.796.[
+   "INFO"
+]"Hider. Step":"850000. Time Elapsed":"1060.862 s. Mean Reward":"0.980. Std of Reward":"0.199. Training. ELO":1481.888.[
+   "INFO"
+]"Hider. Step":"900000. Time Elapsed":"1123.725 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1489.141.[
+   "INFO"
+]"Hider. Step":"950000. Time Elapsed":"1186.185 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1496.746.[
+   "INFO"
+]"Hider. Step":"1000000. Time Elapsed":"1248.575 s. Mean Reward":"0.980. Std of Reward":"0.199. Training. ELO":1503.066.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-999971.onnx[
+   "INFO"
+]"Seeker. Step":"50000. Time Elapsed":"1310.041 s. Mean Reward":"-0.917. Std of Reward":"0.400. Training. ELO":1049.070.[
+   "INFO"
+]"Seeker. Step":"100000. Time Elapsed":"1370.856 s. Mean Reward":"-0.958. Std of Reward":"0.286. Training. ELO":1046.917.[
+   "INFO"
+]"Seeker. Step":"150000. Time Elapsed":"1431.408 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1040.722.[
+   "INFO"
+]"Seeker. Step":"200000. Time Elapsed":"1490.805 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1034.603.[
+   "INFO"
+]"Seeker. Step":"250000. Time Elapsed":"1553.039 s. Mean Reward":"-0.794. Std of Reward":"0.607. Training. ELO":1024.735.[
+   "INFO"
+]"Seeker. Step":"300000. Time Elapsed":"1614.972 s. Mean Reward":"-0.792. Std of Reward":"0.610. Training. ELO":1009.267.[
+   "INFO"
+]"Seeker. Step":"350000. Time Elapsed":"1676.984 s. Mean Reward":"-0.942. Std of Reward":"0.336. Training. ELO":992.809.[
+   "INFO"
+]"Seeker. Step":"400000. Time Elapsed":"1738.760 s. Mean Reward":"-0.780. Std of Reward":"0.626. Training. ELO":979.964.[
+   "INFO"
+]"Seeker. Step":"450000. Time Elapsed":"1799.262 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":974.624.[
+   "INFO"
+]"Seeker. Step":"500000. Time Elapsed":"1860.631 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":967.734.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-499936.onnx[
+   "INFO"
+]"Seeker. Step":"550000. Time Elapsed":"1921.313 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":961.284.[
+   "INFO"
+]"Seeker. Step":"600000. Time Elapsed":"1981.093 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":955.429.[
+   "INFO"
+]"Seeker. Step":"650000. Time Elapsed":"2041.274 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":950.771.[
+   "INFO"
+]"Seeker. Step":"700000. Time Elapsed":"2102.326 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":947.271.[
+   "INFO"
+]"Seeker. Step":"750000. Time Elapsed":"2162.970 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":943.919.[
+   "INFO"
+]"Seeker. Step":"800000. Time Elapsed":"2223.399 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":940.625.[
+   "INFO"
+]"Seeker. Step":"850000. Time Elapsed":"2284.241 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":936.492.[
+   "INFO"
+]"Seeker. Step":"900000. Time Elapsed":"2345.084 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":931.535.[
+   "INFO"
+]"Seeker. Step":"950000. Time Elapsed":"2405.441 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":926.855.[
+   "INFO"
+]"Seeker. Step":"1000000. Time Elapsed":"2466.220 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":922.490.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-999952.onnx[
+   "INFO"
+]"Hider. Step":"1050000. Time Elapsed":"2526.647 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1540.541.[
+   "INFO"
+]"Hider. Step":"1100000. Time Elapsed":"2585.814 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1543.465.[
+   "INFO"
+]"Hider. Step":"1150000. Time Elapsed":"2644.695 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1547.506.[
+   "INFO"
+]"Hider. Step":"1200000. Time Elapsed":"2703.937 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1550.692.[
+   "INFO"
+]"Hider. Step":"1250000. Time Elapsed":"2763.270 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1554.005.[
+   "INFO"
+]"Hider. Step":"1300000. Time Elapsed":"2823.233 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1556.920.[
+   "INFO"
+]"Hider. Step":"1350000. Time Elapsed":"2882.727 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1559.978.[
+   "INFO"
+]"Hider. Step":"1400000. Time Elapsed":"2943.211 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1562.880.[
+   "INFO"
+]"Hider. Step":"1450000. Time Elapsed":"3002.118 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1565.557.[
+   "INFO"
+]"Hider. Step":"1500000. Time Elapsed":"3060.577 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1568.367.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-1499941.onnx[
+   "INFO"
+]"Hider. Step":"1550000. Time Elapsed":"3120.545 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1571.467.[
+   "INFO"
+]"Hider. Step":"1600000. Time Elapsed":"3180.941 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1573.741.[
+   "INFO"
+]"Hider. Step":"1650000. Time Elapsed":"3241.209 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1576.280.[
+   "INFO"
+]"Hider. Step":"1700000. Time Elapsed":"3300.747 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1579.251.[
+   "INFO"
+]"Hider. Step":"1750000. Time Elapsed":"3361.208 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1581.854.[
+   "INFO"
+]"Hider. Step":"1800000. Time Elapsed":"3421.601 s. Mean Reward":"0.982. Std of Reward":"0.188. Training. ELO":1584.352.[
+   "INFO"
+]"Hider. Step":"1850000. Time Elapsed":"3481.921 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1585.966.[
+   "INFO"
+]"Hider. Step":"1900000. Time Elapsed":"3541.549 s. Mean Reward":"0.980. Std of Reward":"0.201. Training. ELO":1587.936.[
+   "INFO"
+]"Hider. Step":"1950000. Time Elapsed":"3601.340 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1589.968.[
+   "INFO"
+]"Hider. Step":"2000000. Time Elapsed":"3661.772 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1592.794.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-1999945.onnx[
+   "INFO"
+]"Seeker. Step":"1050000. Time Elapsed":"3721.787 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":894.942.[
+   "INFO"
+]"Seeker. Step":"1100000. Time Elapsed":"3780.301 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":892.684.[
+   "INFO"
+]"Seeker. Step":"1150000. Time Elapsed":"3839.478 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":890.301.[
+   "INFO"
+]"Seeker. Step":"1200000. Time Elapsed":"3896.948 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":887.979.[
+   "INFO"
+]"Seeker. Step":"1250000. Time Elapsed":"3955.348 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":886.129.[
+   "INFO"
+]"Seeker. Step":"1300000. Time Elapsed":"4013.817 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":884.419.[
+   "INFO"
+]"Seeker. Step":"1350000. Time Elapsed":"4072.642 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":882.741.[
+   "INFO"
+]"Seeker. Step":"1400000. Time Elapsed":"4129.544 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":881.220.[
+   "INFO"
+]"Seeker. Step":"1450000. Time Elapsed":"4188.202 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":879.724.[
+   "INFO"
+]"Seeker. Step":"1500000. Time Elapsed":"4245.941 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":878.254.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-1499936.onnx[
+   "INFO"
+]"Seeker. Step":"1550000. Time Elapsed":"4303.107 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":876.808.[
+   "INFO"
+]"Seeker. Step":"1600000. Time Elapsed":"4360.901 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":875.385.[
+   "INFO"
+]"Seeker. Step":"1650000. Time Elapsed":"4420.855 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":872.887.[
+   "INFO"
+]"Seeker. Step":"1700000. Time Elapsed":"4480.714 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":869.651.[
+   "INFO"
+]"Seeker. Step":"1750000. Time Elapsed":"4539.752 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":866.765.[
+   "INFO"
+]"Seeker. Step":"1800000. Time Elapsed":"4598.441 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":863.970.
+[
+   "INFO"
+]"Seeker. Step":"1850000. Time Elapsed":"4656.891 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":861.957.[
+   637/1146
+][
+   "INFO"
+]"Seeker. Step":"1900000. Time Elapsed":"4715.495 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":860.669.[
+   "INFO"
+]"Seeker. Step":"1950000. Time Elapsed":"4774.820 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":859.399.[
+   "INFO"
+]"Seeker. Step":"2000000. Time Elapsed":"4833.988 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":858.147.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-1999952.onnx[
+   "INFO"
+]"Hider. Step":"2050000. Time Elapsed":"4894.050 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1612.275.[
+   "INFO"
+]"Hider. Step":"2100000. Time Elapsed":"4953.654 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1613.943.[
+   "INFO"
+]"Hider. Step":"2150000. Time Elapsed":"5012.652 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1615.459.[
+   "INFO"
+]"Hider. Step":"2200000. Time Elapsed":"5071.631 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1616.811.[
+   "INFO"
+]"Hider. Step":"2250000. Time Elapsed":"5131.453 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1618.176.[
+   "INFO"
+]"Hider. Step":"2300000. Time Elapsed":"5191.098 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1619.643.[
+   "INFO"
+]"Hider. Step":"2350000. Time Elapsed":"5250.717 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1620.985.[
+   "INFO"
+]"Hider. Step":"2400000. Time Elapsed":"5310.707 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1622.570.[
+   "INFO"
+]"Hider. Step":"2450000. Time Elapsed":"5370.261 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1624.517.[
+   "INFO"
+]"Hider. Step":"2500000. Time Elapsed":"5429.753 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1626.067.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-2499957.onnx[
+   "INFO"
+]"Hider. Step":"2550000. Time Elapsed":"5489.455 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1627.556.[
+   "INFO"
+]"Hider. Step":"2600000. Time Elapsed":"5550.331 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1629.278.[
+   "INFO"
+]"Hider. Step":"2650000. Time Elapsed":"5610.828 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1630.752.[
+   "INFO"
+]"Hider. Step":"2700000. Time Elapsed":"5671.952 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1632.147.[
+   "INFO"
+]"Hider. Step":"2750000. Time Elapsed":"5731.813 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1633.589.[
+   "INFO"
+]"Hider. Step":"2800000. Time Elapsed":"5791.646 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1634.966.[
+   "INFO"
+]"Hider. Step":"2850000. Time Elapsed":"5851.418 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1636.509.[
+   "INFO"
+]"Hider. Step":"2900000. Time Elapsed":"5911.166 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1637.894.[
+   "INFO"
+]"Hider. Step":"2950000. Time Elapsed":"5970.985 s. Mean Reward":"0.979. Std of Reward":"0.202. Training. ELO":1639.148.[
+   "INFO"
+]"Hider. Step":"3000000. Time Elapsed":"6031.392 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1640.024.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-2999973.onnx[
+   "INFO"
+]"Seeker. Step":"2050000. Time Elapsed":"6091.613 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":845.145.[
+   "INFO"
+]"Seeker. Step":"2100000. Time Elapsed":"6150.882 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":843.517.[
+   "INFO"
+]"Seeker. Step":"2150000. Time Elapsed":"6210.384 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":841.918.[
+   "INFO"
+]"Seeker. Step":"2200000. Time Elapsed":"6269.446 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":840.348.[
+   "INFO"
+]"Seeker. Step":"2250000. Time Elapsed":"6329.646 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":838.872.[
+   "INFO"
+]"Seeker. Step":"2300000. Time Elapsed":"6390.111 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":837.484.[
+   "INFO"
+]"Seeker. Step":"2350000. Time Elapsed":"6449.265 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":836.117.[
+   "INFO"
+]"Seeker. Step":"2400000. Time Elapsed":"6508.988 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":834.660.[
+   "INFO"
+]"Seeker. Step":"2450000. Time Elapsed":"6567.429 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":833.431.[
+   "INFO"
+]"Seeker. Step":"2500000. Time Elapsed":"6626.865 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":832.526.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-2499984.onnx[
+   "INFO"
+]"Seeker. Step":"2550000. Time Elapsed":"6686.533 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":831.629.[
+   "INFO"
+]"Seeker. Step":"2600000. Time Elapsed":"6746.261 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":830.742.[
+   "INFO"
+]"Seeker. Step":"2650000. Time Elapsed":"6805.292 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":829.774.[
+   "INFO"
+]"Seeker. Step":"2700000. Time Elapsed":"6864.105 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":828.730.[
+   "INFO"
+]"Seeker. Step":"2750000. Time Elapsed":"6922.568 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":827.698.[
+   "INFO"
+]"Seeker. Step":"2800000. Time Elapsed":"6981.481 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":826.593.[
+   "INFO"
+]"Seeker. Step":"2850000. Time Elapsed":"7040.938 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":825.577.[
+   "INFO"
+]"Seeker. Step":"2900000. Time Elapsed":"7100.641 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":824.728.[
+   "INFO"
+]"Seeker. Step":"2950000. Time Elapsed":"7160.133 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":823.888.[
+   "INFO"
+]"Seeker. Step":"3000000. Time Elapsed":"7219.687 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":823.055.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-2999952.onnx[
+   "INFO"
+]"Hider. Step":"3050000. Time Elapsed":"7279.336 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1648.145.[
+   "INFO"
+]"Hider. Step":"3100000. Time Elapsed":"7339.776 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1649.294.[
+   "INFO"
+]"Hider. Step":"3150000. Time Elapsed":"7399.471 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1650.453.[
+   "INFO"
+]"Hider. Step":"3200000. Time Elapsed":"7459.481 s. Mean Reward":"0.939. Std of Reward":"0.343. Training. ELO":1651.393.[
+   "INFO"
+]"Hider. Step":"3250000. Time Elapsed":"7519.300 s. Mean Reward":"0.856. Std of Reward":"0.518. Training. ELO":1647.963.[
+   "INFO"
+]"Hider. Step":"3300000. Time Elapsed":"7579.382 s. Mean Reward":"0.829. Std of Reward":"0.560. Training. ELO":1641.375.[
+   "INFO"
+]"Hider. Step":"3350000. Time Elapsed":"7639.192 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1636.260.[
+   "INFO"
+]"Hider. Step":"3400000. Time Elapsed":"7699.035 s. Mean Reward":"0.842. Std of Reward":"0.540. Training. ELO":1632.777.[
+   "INFO"
+]"Hider. Step":"3450000. Time Elapsed":"7759.903 s. Mean Reward":"0.865. Std of Reward":"0.501. Training. ELO":1629.396.[
+   "INFO"
+]"Hider. Step":"3500000. Time Elapsed":"7819.678 s. Mean Reward":"0.979. Std of Reward":"0.202. Training. ELO":1624.547.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-3499957.onnx[
+   "INFO"
+]"Hider. Step":"3550000. Time Elapsed":"7880.464 s. Mean Reward":"0.939. Std of Reward":"0.345. Training. ELO":1623.725.[
+   "INFO"
+]"Hider. Step":"3600000. Time Elapsed":"7940.121 s. Mean Reward":"0.920. Std of Reward":"0.392. Training. ELO":1622.817.[
+   "INFO"
+]"Hider. Step":"3650000. Time Elapsed":"8000.236 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1621.532.[
+   "INFO"
+]"Hider. Step":"3700000. Time Elapsed":"8062.003 s. Mean Reward":"0.960. Std of Reward":"0.280. Training. ELO":1621.032.[
+   "INFO"
+]"Hider. Step":"3750000. Time Elapsed":"8125.507 s. Mean Reward":"0.959. Std of Reward":"0.283. Training. ELO":1621.329.[
+   "INFO"
+]"Hider. Step":"3800000. Time Elapsed":"8188.892 s. Mean Reward":"0.980. Std of Reward":"0.201. Training. ELO":1621.284.[
+   "INFO"
+]"Hider. Step":"3850000. Time Elapsed":"8251.602 s. Mean Reward":"0.845. Std of Reward":"0.535. Training. ELO":1615.412.[
+   "INFO"
+]"Hider. Step":"3900000. Time Elapsed":"8311.730 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1615.077.[
+   "INFO"
+]"Hider. Step":"3950000. Time Elapsed":"8372.653 s. Mean Reward":"0.939. Std of Reward":"0.343. Training. ELO":1615.160.[
+   "INFO"
+]"Hider. Step":"4000000. Time Elapsed":"8432.880 s. Mean Reward":"0.898. Std of Reward":"0.440. Training. ELO":1611.178.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-3999977.onnx[
+   "INFO"
+]"Seeker. Step":"3050000. Time Elapsed":"8492.730 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":815.049.[
+   "INFO"
+]"Seeker. Step":"3100000. Time Elapsed":"8550.203 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":814.083.[
+   "INFO"
+]"Seeker. Step":"3150000. Time Elapsed":"8609.074 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":813.127.[
+   "INFO"
+]"Seeker. Step":"3200000. Time Elapsed":"8668.509 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":812.182.[
+   "INFO"
+]"Seeker. Step":"3250000. Time Elapsed":"8726.971 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":811.247.[
+   "INFO"
+]"Seeker. Step":"3300000. Time Elapsed":"8785.717 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":810.322.[
+   "INFO"
+]"Seeker. Step":"3350000. Time Elapsed":"8844.151 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":809.406.[
+   "INFO"
+]"Seeker. Step":"3400000. Time Elapsed":"8902.852 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":808.425.[
+   "INFO"
+]"Seeker. Step":"3450000. Time Elapsed":"8962.003 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":807.455.[
+   "INFO"
+]"Seeker. Step":"3500000. Time Elapsed":"9019.421 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":806.569.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-3499952.onnx[
+   "INFO"
+]"Seeker. Step":"3550000. Time Elapsed":"9077.173 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":805.691.[
+   "INFO"
+]"Seeker. Step":"3600000. Time Elapsed":"9135.975 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":804.822
+[
+   "INFO"
+]"Seeker. Step":"3650000. Time Elapsed":"9195.469 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":803.947.[
+   553/1146
+][
+   "INFO"
+]"Seeker. Step":"3700000. Time Elapsed":"9254.745 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":803.066.[
+   "INFO"
+]"Seeker. Step":"3750000. Time Elapsed":"9314.080 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":802.194.[
+   "INFO"
+]"Seeker. Step":"3800000. Time Elapsed":"9372.918 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":801.254.[
+   "INFO"
+]"Seeker. Step":"3850000. Time Elapsed":"9432.203 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":800.078.[
+   "INFO"
+]"Seeker. Step":"3900000. Time Elapsed":"9492.133 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":798.860.[
+   "INFO"
+]"Seeker. Step":"3950000. Time Elapsed":"9551.004 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":797.657.[
+   "INFO"
+]"Seeker. Step":"4000000. Time Elapsed":"9610.191 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":796.472.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-3999984.onnx[
+   "INFO"
+]"Hider. Step":"4050000. Time Elapsed":"9668.784 s. Mean Reward":"0.959. Std of Reward":"0.284. Training. ELO":1621.059.[
+   "INFO"
+]"Hider. Step":"4100000. Time Elapsed":"9728.065 s. Mean Reward":"0.854. Std of Reward":"0.520. Training. ELO":1617.398.[
+   "INFO"
+]"Hider. Step":"4150000. Time Elapsed":"9785.674 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1616.145.[
+   "INFO"
+]"Hider. Step":"4200000. Time Elapsed":"9845.180 s. Mean Reward":"0.979. Std of Reward":"0.202. Training. ELO":1616.699.[
+   "INFO"
+]"Hider. Step":"4250000. Time Elapsed":"9903.762 s. Mean Reward":"0.941. Std of Reward":"0.340. Training. ELO":1617.059.[
+   "INFO"
+]"Hider. Step":"4300000. Time Elapsed":"9962.187 s. Mean Reward":"0.899. Std of Reward":"0.438. Training. ELO":1615.853.[
+   "INFO"
+]"Hider. Step":"4350000. Time Elapsed":"10022.214 s. Mean Reward":"0.980. Std of Reward":"0.201. Training. ELO":1611.897.[
+   "INFO"
+]"Hider. Step":"4400000. Time Elapsed":"10081.901 s. Mean Reward":"0.920. Std of Reward":"0.392. Training. ELO":1612.022.[
+   "INFO"
+]"Hider. Step":"4450000. Time Elapsed":"10141.727 s. Mean Reward":"0.960. Std of Reward":"0.279. Training. ELO":1608.340.[
+   "INFO"
+]"Hider. Step":"4500000. Time Elapsed":"10201.690 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1609.297.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-4499994.onnx[
+   "INFO"
+]"Hider. Step":"4550000. Time Elapsed":"10262.170 s. Mean Reward":"0.980. Std of Reward":"0.201. Training. ELO":1609.842.[
+   "INFO"
+]"Hider. Step":"4600000. Time Elapsed":"10322.767 s. Mean Reward":"0.857. Std of Reward":"0.515. Training. ELO":1608.582.[
+   "INFO"
+]"Hider. Step":"4650000. Time Elapsed":"10383.293 s. Mean Reward":"0.938. Std of Reward":"0.348. Training. ELO":1603.476.[
+   "INFO"
+]"Hider. Step":"4700000. Time Elapsed":"10443.684 s. Mean Reward":"0.961. Std of Reward":"0.277. Training. ELO":1603.079.[
+   "INFO"
+]"Hider. Step":"4750000. Time Elapsed":"10502.832 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1603.611.[
+   "INFO"
+]"Hider. Step":"4800000. Time Elapsed":"10562.939 s. Mean Reward":"0.939. Std of Reward":"0.345. Training. ELO":1603.600.[
+   "INFO"
+]"Hider. Step":"4850000. Time Elapsed":"10623.124 s. Mean Reward":"0.902. Std of Reward":"0.432. Training. ELO":1600.201.[
+   "INFO"
+]"Hider. Step":"4900000. Time Elapsed":"10682.695 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1600.214.[
+   "INFO"
+]"Hider. Step":"4950000. Time Elapsed":"10742.099 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1601.375.[
+   "INFO"
+]"Hider. Step":"5000000. Time Elapsed":"10802.443 s. Mean Reward":"0.920. Std of Reward":"0.392. Training. ELO":1600.039.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-4999953.onnx[
+   "INFO"
+]"Seeker. Step":"4050000. Time Elapsed":"10862.304 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":787.955.[
+   "INFO"
+]"Seeker. Step":"4100000. Time Elapsed":"10919.837 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":787.073.[
+   "INFO"
+]"Seeker. Step":"4150000. Time Elapsed":"10978.972 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":786.201.[
+   "INFO"
+]"Seeker. Step":"4200000. Time Elapsed":"11038.140 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":785.336.[
+   "INFO"
+]"Seeker. Step":"4250000. Time Elapsed":"11096.064 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":784.480.[
+   "INFO"
+]"Seeker. Step":"4300000. Time Elapsed":"11152.716 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":783.633.[
+   "INFO"
+]"Seeker. Step":"4350000. Time Elapsed":"11210.701 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":782.793.[
+   "INFO"
+]"Seeker. Step":"4400000. Time Elapsed":"11269.744 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":781.962.[
+   "INFO"
+]"Seeker. Step":"4450000. Time Elapsed":"11328.846 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":781.170.[
+   "INFO"
+]"Seeker. Step":"4500000. Time Elapsed":"11386.996 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":780.470.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-4499968.onnx[
+   "INFO"
+]"Seeker. Step":"4550000. Time Elapsed":"11446.359 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":779.828.[
+   "INFO"
+]"Seeker. Step":"4600000. Time Elapsed":"11504.657 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":779.191.[
+   "INFO"
+]"Seeker. Step":"4650000. Time Elapsed":"11563.245 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":778.469.[
+   "INFO"
+]"Seeker. Step":"4700000. Time Elapsed":"11621.781 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":777.665.[
+   "INFO"
+]"Seeker. Step":"4750000. Time Elapsed":"11680.648 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":776.868.[
+   "INFO"
+]"Seeker. Step":"4800000. Time Elapsed":"11739.405 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":776.079.[
+   "INFO"
+]"Seeker. Step":"4850000. Time Elapsed":"11799.424 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":775.274.[
+   "INFO"
+]"Seeker. Step":"4900000. Time Elapsed":"11859.573 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":774.512.[
+   "INFO"
+]"Seeker. Step":"4950000. Time Elapsed":"11919.244 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":773.814.[
+   "INFO"
+]"Seeker. Step":"5000000. Time Elapsed":"11979.383 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":773.121.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-4999984.onnx[
+   "INFO"
+]"Hider. Step":"5050000. Time Elapsed":"12039.910 s. Mean Reward":"0.979. Std of Reward":"0.203. Training. ELO":1610.034.[
+   "INFO"
+]"Hider. Step":"5100000. Time Elapsed":"12098.478 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1610.825.[
+   "INFO"
+]"Hider. Step":"5150000. Time Elapsed":"12157.294 s. Mean Reward":"0.875. Std of Reward":"0.484. Training. ELO":1608.627.[
+   "INFO"
+]"Hider. Step":"5200000. Time Elapsed":"12217.030 s. Mean Reward":"0.980. Std of Reward":"0.201. Training. ELO":1607.536.[
+   "INFO"
+]"Hider. Step":"5250000. Time Elapsed":"12275.658 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1608.119.[
+   "INFO"
+]"Hider. Step":"5300000. Time Elapsed":"12335.801 s. Mean Reward":"0.899. Std of Reward":"0.438. Training. ELO":1606.204.[
+   "INFO"
+]"Hider. Step":"5350000. Time Elapsed":"12395.802 s. Mean Reward":"0.919. Std of Reward":"0.394. Training. ELO":1604.366.[
+   "INFO"
+]"Hider. Step":"5400000. Time Elapsed":"12456.085 s. Mean Reward":"0.980. Std of Reward":"0.201. Training. ELO":1601.976.[
+   "INFO"
+]"Hider. Step":"5450000. Time Elapsed":"12516.300 s. Mean Reward":"0.961. Std of Reward":"0.276. Training. ELO":1601.481.[
+   "INFO"
+]"Hider. Step":"5500000. Time Elapsed":"12576.334 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1602.325.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-5499985.onnx[
+   "INFO"
+]"Hider. Step":"5550000. Time Elapsed":"12636.893 s. Mean Reward":"0.939. Std of Reward":"0.343. Training. ELO":1601.678.[
+   "INFO"
+]"Hider. Step":"5600000. Time Elapsed":"12697.229 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1601.776.[
+   "INFO"
+]"Hider. Step":"5650000. Time Elapsed":"12757.166 s. Mean Reward":"0.860. Std of Reward":"0.510. Training. ELO":1599.611.[
+   "INFO"
+]"Hider. Step":"5700000. Time Elapsed":"12815.931 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1597.536.[
+   "INFO"
+]"Hider. Step":"5750000. Time Elapsed":"12876.296 s. Mean Reward":"0.959. Std of Reward":"0.284. Training. ELO":1597.732.[
+   "INFO"
+]"Hider. Step":"5800000. Time Elapsed":"12936.836 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1598.061.[
+   "INFO"
+]"Hider. Step":"5850000. Time Elapsed":"12996.983 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1599.337.[
+   "INFO"
+]"Hider. Step":"5900000. Time Elapsed":"13057.171 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1600.442.[
+   "INFO"
+]"Hider. Step":"5950000. Time Elapsed":"13117.237 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1601.594.[
+   "INFO"
+]"Hider. Step":"6000000. Time Elapsed":"13177.738 s. Mean Reward":"0.980. Std of Reward":"0.200. Training. ELO":1602.605.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-5999996.onnx[
+   "INFO"
+]"Seeker. Step":"5050000. Time Elapsed":"13238.408 s. Mean Reward":"-0.729. Std of Reward":"0.684. Training. ELO":768.969.[
+   "INFO"
+]"Seeker. Step":"5100000. Time Elapsed":"13300.037 s. Mean Reward":"-0.528. Std of Reward":"0.849. Training. ELO":784.143.[
+   "INFO"
+]"Seeker. Step":"5150000. Time Elapsed":"13361.447 s. Mean Reward":"-0.760. Std of Reward":"0.650. Training. ELO":793.140.[
+   "INFO"
+]"Seeker. Step":"5200000. Time Elapsed":"13423.217 s. Mean Reward":"-0.767. Std of Reward":"0.642. Training. ELO":795.942.[
+   "INFO"
+]"Seeker. Step":"5250000. Time Elapsed":"13483.948 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":797.924.[
+   "INFO"
+]"Seeker. Step":"5300000. Time Elapsed":"13544.335 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":797.024.[
+   "INFO"
+]"Seeker. Step":"5350000. Time Elapsed":"13604.896 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":796.138.[
+   "INFO"
+]"Seeker. Step":"5400000. Time Elapsed":"13665.337 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":795.252.[
+   "INFO"
+]"Seeker. Step":"5450000. Time Elapsed":"13723.817 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":794.343.
+[
+   "INFO"
+]"Seeker. Step":"5500000. Time Elapsed":"13783.241 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":793.433.[
+   472/1149
+][
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-5499949.onnx[
+   "INFO"
+]"Seeker. Step":"5550000. Time Elapsed":"13843.465 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":792.528.[
+   "INFO"
+]"Seeker. Step":"5600000. Time Elapsed":"13904.186 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":791.623.[
+   "INFO"
+]"Seeker. Step":"5650000. Time Elapsed":"13964.532 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":790.731.[
+   "INFO"
+]"Seeker. Step":"5700000. Time Elapsed":"14024.929 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":789.853.[
+   "INFO"
+]"Seeker. Step":"5750000. Time Elapsed":"14084.828 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":788.984.[
+   "INFO"
+]"Seeker. Step":"5800000. Time Elapsed":"14144.060 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":788.114.[
+   "INFO"
+]"Seeker. Step":"5850000. Time Elapsed":"14203.929 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":787.254.[
+   "INFO"
+]"Seeker. Step":"5900000. Time Elapsed":"14264.523 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":786.412.[
+   "INFO"
+]"Seeker. Step":"5950000. Time Elapsed":"14324.519 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":785.581.[
+   "INFO"
+]"Seeker. Step":"6000000. Time Elapsed":"14384.393 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":784.746.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-5999965.onnx[
+   "INFO"
+]"Hider. Step":"6050000. Time Elapsed":"14444.681 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1609.966.[
+   "INFO"
+]"Hider. Step":"6100000. Time Elapsed":"14503.606 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1611.092.[
+   "INFO"
+]"Hider. Step":"6150000. Time Elapsed":"14562.638 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1612.104.[
+   "INFO"
+]"Hider. Step":"6200000. Time Elapsed":"14621.458 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1613.063.[
+   "INFO"
+]"Hider. Step":"6250000. Time Elapsed":"14680.057 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1613.999.[
+   "INFO"
+]"Hider. Step":"6300000. Time Elapsed":"14738.993 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1614.952.[
+   "INFO"
+]"Hider. Step":"6350000. Time Elapsed":"14798.161 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1615.887.[
+   "INFO"
+]"Hider. Step":"6400000. Time Elapsed":"14856.973 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1616.749.[
+   "INFO"
+]"Hider. Step":"6450000. Time Elapsed":"14915.572 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1617.917.[
+   "INFO"
+]"Hider. Step":"6500000. Time Elapsed":"14972.478 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1619.054.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-6499937.onnx[
+   "INFO"
+]"Hider. Step":"6550000. Time Elapsed":"15031.480 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1619.954.[
+   "INFO"
+]"Hider. Step":"6600000. Time Elapsed":"15090.258 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1620.841.[
+   "INFO"
+]"Hider. Step":"6650000. Time Elapsed":"15148.610 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1621.692.[
+   "INFO"
+]"Hider. Step":"6700000. Time Elapsed":"15206.846 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1622.636.[
+   "INFO"
+]"Hider. Step":"6750000. Time Elapsed":"15265.624 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1623.608.[
+   "INFO"
+]"Hider. Step":"6800000. Time Elapsed":"15324.526 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1624.455.[
+   "INFO"
+]"Hider. Step":"6850000. Time Elapsed":"15382.929 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1625.316.[
+   "INFO"
+]"Hider. Step":"6900000. Time Elapsed":"15441.636 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1626.153.[
+   "INFO"
+]"Hider. Step":"6950000. Time Elapsed":"15500.026 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1626.994.[
+   "INFO"
+]"Hider. Step":"7000000. Time Elapsed":"15558.670 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1627.731.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-6999954.onnx[
+   "INFO"
+]"Seeker. Step":"6050000. Time Elapsed":"15618.877 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":776.885.[
+   "INFO"
+]"Seeker. Step":"6100000. Time Elapsed":"15677.482 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":775.082.[
+   "INFO"
+]"Seeker. Step":"6150000. Time Elapsed":"15737.083 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":773.464.[
+   "INFO"
+]"Seeker. Step":"6200000. Time Elapsed":"15796.726 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":771.875.[
+   "INFO"
+]"Seeker. Step":"6250000. Time Elapsed":"15855.085 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":770.559.[
+   "INFO"
+]"Seeker. Step":"6300000. Time Elapsed":"15913.566 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":769.812.[
+   "INFO"
+]"Seeker. Step":"6350000. Time Elapsed":"15972.198 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":769.081.[
+   "INFO"
+]"Seeker. Step":"6400000. Time Elapsed":"16030.901 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":768.356.[
+   "INFO"
+]"Seeker. Step":"6450000. Time Elapsed":"16089.937 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":767.525.[
+   "INFO"
+]"Seeker. Step":"6500000. Time Elapsed":"16149.300 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":766.456.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-6499995.onnx[
+   "INFO"
+]"Seeker. Step":"6550000. Time Elapsed":"16208.967 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":765.399.[
+   "INFO"
+]"Seeker. Step":"6600000. Time Elapsed":"16269.237 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":764.436.[
+   "INFO"
+]"Seeker. Step":"6650000. Time Elapsed":"16327.665 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":763.519.[
+   "INFO"
+]"Seeker. Step":"6700000. Time Elapsed":"16386.829 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":762.783.[
+   "INFO"
+]"Seeker. Step":"6750000. Time Elapsed":"16445.368 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":762.055.[
+   "INFO"
+]"Seeker. Step":"6800000. Time Elapsed":"16503.830 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":761.334.[
+   "INFO"
+]"Seeker. Step":"6850000. Time Elapsed":"16562.060 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":760.685.[
+   "INFO"
+]"Seeker. Step":"6900000. Time Elapsed":"16619.653 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":759.999.[
+   "INFO"
+]"Seeker. Step":"6950000. Time Elapsed":"16679.124 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":759.319.[
+   "INFO"
+]"Seeker. Step":"7000000. Time Elapsed":"16737.159 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":758.695.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-6999995.onnx[
+   "INFO"
+]"Hider. Step":"7050000. Time Elapsed":"16797.566 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1633.979.[
+   "INFO"
+]"Hider. Step":"7100000. Time Elapsed":"16856.069 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1634.631.[
+   "INFO"
+]"Hider. Step":"7150000. Time Elapsed":"16914.562 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1635.398.[
+   "INFO"
+]"Hider. Step":"7200000. Time Elapsed":"16972.948 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1636.174.[
+   "INFO"
+]"Hider. Step":"7250000. Time Elapsed":"17030.991 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1636.847.[
+   "INFO"
+]"Hider. Step":"7300000. Time Elapsed":"17089.348 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1637.621.[
+   "INFO"
+]"Hider. Step":"7350000. Time Elapsed":"17148.197 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1638.398.[
+   "INFO"
+]"Hider. Step":"7400000. Time Elapsed":"17204.509 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1639.092.[
+   "INFO"
+]"Hider. Step":"7450000. Time Elapsed":"17261.658 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1639.846.[
+   "INFO"
+]"Hider. Step":"7500000. Time Elapsed":"17320.400 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1640.559.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-7499940.onnx[
+   "INFO"
+]"Hider. Step":"7550000. Time Elapsed":"17379.544 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1641.297.[
+   "INFO"
+]"Hider. Step":"7600000. Time Elapsed":"17437.253 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1641.966.[
+   "INFO"
+]"Hider. Step":"7650000. Time Elapsed":"17495.895 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1642.591.[
+   "INFO"
+]"Hider. Step":"7700000. Time Elapsed":"17555.733 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1643.280.[
+   "INFO"
+]"Hider. Step":"7750000. Time Elapsed":"17614.100 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1644.045.[
+   "INFO"
+]"Hider. Step":"7800000. Time Elapsed":"17672.870 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1644.729.[
+   "INFO"
+]"Hider. Step":"7850000. Time Elapsed":"17733.096 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1645.494.[
+   "INFO"
+]"Hider. Step":"7900000. Time Elapsed":"17790.498 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1646.172.[
+   "INFO"
+]"Hider. Step":"7950000. Time Elapsed":"17849.711 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1646.849.[
+   "INFO"
+]"Hider. Step":"8000000. Time Elapsed":"17908.502 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1647.533.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-7999972.onnx[
+   "INFO"
+]"Seeker. Step":"7050000. Time Elapsed":"17968.125 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":752.505.[
+   "INFO"
+]"Seeker. Step":"7100000. Time Elapsed":"18027.566 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":750.155.[
+   "INFO"
+]"Seeker. Step":"7150000. Time Elapsed":"18088.086 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":748.798.[
+   "INFO"
+]"Seeker. Step":"7200000. Time Elapsed":"18147.292 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":747.351.[
+   "INFO"
+]"Seeker. Step":"7250000. Time Elapsed":"18205.700 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":746.271.
+[
+   "INFO"
+]"Seeker. Step":"7300000. Time Elapsed":"18265.000 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":745.597.[
+   388/1149
+][
+   "INFO"
+]"Seeker. Step":"7350000. Time Elapsed":"18322.397 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":744.928.[
+   "INFO"
+]"Seeker. Step":"7400000. Time Elapsed":"18381.318 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":744.316.[
+   "INFO"
+]"Seeker. Step":"7450000. Time Elapsed":"18442.003 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":743.652.[
+   "INFO"
+]"Seeker. Step":"7500000. Time Elapsed":"18500.015 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":742.988.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-7499947.onnx[
+   "INFO"
+]"Seeker. Step":"7550000. Time Elapsed":"18558.899 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":742.379.[
+   "INFO"
+]"Seeker. Step":"7600000. Time Elapsed":"18618.886 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":741.724.[
+   "INFO"
+]"Seeker. Step":"7650000. Time Elapsed":"18677.196 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":741.116.[
+   "INFO"
+]"Seeker. Step":"7700000. Time Elapsed":"18735.621 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":740.559.[
+   "INFO"
+]"Seeker. Step":"7750000. Time Elapsed":"18794.110 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":740.005.[
+   "INFO"
+]"Seeker. Step":"7800000. Time Elapsed":"18853.173 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":739.497.[
+   "INFO"
+]"Seeker. Step":"7850000. Time Elapsed":"18911.645 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":738.900.[
+   "INFO"
+]"Seeker. Step":"7900000. Time Elapsed":"18970.741 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":738.232.[
+   "INFO"
+]"Seeker. Step":"7950000. Time Elapsed":"19029.575 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":737.568.[
+   "INFO"
+]"Seeker. Step":"8000000. Time Elapsed":"19086.704 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":736.909.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-7999979.onnx[
+   "INFO"
+]"Hider. Step":"8050000. Time Elapsed":"19147.165 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1650.308.[
+   "INFO"
+]"Hider. Step":"8100000. Time Elapsed":"19204.422 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1650.864.[
+   "INFO"
+]"Hider. Step":"8150000. Time Elapsed":"19262.871 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1651.419.[
+   "INFO"
+]"Hider. Step":"8200000. Time Elapsed":"19322.527 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1652.014.[
+   "INFO"
+]"Hider. Step":"8250000. Time Elapsed":"19379.488 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1652.573.[
+   "INFO"
+]"Hider. Step":"8300000. Time Elapsed":"19438.677 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1653.210.[
+   "INFO"
+]"Hider. Step":"8350000. Time Elapsed":"19497.241 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1653.845.[
+   "INFO"
+]"Hider. Step":"8400000. Time Elapsed":"19553.516 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1654.352.[
+   "INFO"
+]"Hider. Step":"8450000. Time Elapsed":"19613.173 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1654.959.[
+   "INFO"
+]"Hider. Step":"8500000. Time Elapsed":"19671.686 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1655.585.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-8499948.onnx[
+   "INFO"
+]"Hider. Step":"8550000. Time Elapsed":"19730.577 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1656.079.[
+   "INFO"
+]"Hider. Step":"8600000. Time Elapsed":"19789.412 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1656.646.[
+   "INFO"
+]"Hider. Step":"8650000. Time Elapsed":"19847.672 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1657.219.[
+   "INFO"
+]"Hider. Step":"8700000. Time Elapsed":"19905.089 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1657.848.[
+   "INFO"
+]"Hider. Step":"8750000. Time Elapsed":"19963.688 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1658.460.[
+   "INFO"
+]"Hider. Step":"8800000. Time Elapsed":"20023.037 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1659.005.[
+   "INFO"
+]"Hider. Step":"8850000. Time Elapsed":"20082.571 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1659.614.[
+   "INFO"
+]"Hider. Step":"8900000. Time Elapsed":"20141.931 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1660.184.[
+   "INFO"
+]"Hider. Step":"8950000. Time Elapsed":"20200.095 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1660.754.[
+   "INFO"
+]"Hider. Step":"9000000. Time Elapsed":"20258.768 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1661.288.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-8999980.onnx[
+   "INFO"
+]"Seeker. Step":"8050000. Time Elapsed":"20317.963 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":731.444.[
+   "INFO"
+]"Seeker. Step":"8100000. Time Elapsed":"20376.045 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":730.938.[
+   "INFO"
+]"Seeker. Step":"8150000. Time Elapsed":"20432.829 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":730.435.[
+   "INFO"
+]"Seeker. Step":"8200000. Time Elapsed":"20492.239 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":729.893.[
+   "INFO"
+]"Seeker. Step":"8250000. Time Elapsed":"20550.533 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":729.290.[
+   "INFO"
+]"Seeker. Step":"8300000. Time Elapsed":"20608.005 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":728.669.[
+   "INFO"
+]"Seeker. Step":"8350000. Time Elapsed":"20667.785 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":728.002.[
+   "INFO"
+]"Seeker. Step":"8400000. Time Elapsed":"20726.616 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":727.339.[
+   "INFO"
+]"Seeker. Step":"8450000. Time Elapsed":"20784.909 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":726.720.[
+   "INFO"
+]"Seeker. Step":"8500000. Time Elapsed":"20843.773 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":726.162.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-8499963.onnx[
+   "INFO"
+]"Seeker. Step":"8550000. Time Elapsed":"20902.275 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":725.652.[
+   "INFO"
+]"Seeker. Step":"8600000. Time Elapsed":"20960.616 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":725.102.[
+   "INFO"
+]"Seeker. Step":"8650000. Time Elapsed":"21019.858 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":724.590.[
+   "INFO"
+]"Seeker. Step":"8700000. Time Elapsed":"21079.254 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":724.121.[
+   "INFO"
+]"Seeker. Step":"8750000. Time Elapsed":"21138.481 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":723.655.[
+   "INFO"
+]"Seeker. Step":"8800000. Time Elapsed":"21197.411 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":723.227.[
+   "INFO"
+]"Seeker. Step":"8850000. Time Elapsed":"21256.392 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":722.765.[
+   "INFO"
+]"Seeker. Step":"8900000. Time Elapsed":"21315.101 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":722.306.[
+   "INFO"
+]"Seeker. Step":"8950000. Time Elapsed":"21374.297 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":721.885.[
+   "INFO"
+]"Seeker. Step":"9000000. Time Elapsed":"21433.226 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":721.430.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-8999995.onnx[
+   "INFO"
+]"Hider. Step":"9050000. Time Elapsed":"21494.139 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1665.385.[
+   "INFO"
+]"Hider. Step":"9100000. Time Elapsed":"21553.488 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1665.813.[
+   "INFO"
+]"Hider. Step":"9150000. Time Elapsed":"21611.955 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1666.303.[
+   "INFO"
+]"Hider. Step":"9200000. Time Elapsed":"21670.806 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1666.813.[
+   "INFO"
+]"Hider. Step":"9250000. Time Elapsed":"21729.436 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1667.314.[
+   "INFO"
+]"Hider. Step":"9300000. Time Elapsed":"21788.830 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1667.843.[
+   "INFO"
+]"Hider. Step":"9350000. Time Elapsed":"21847.493 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1668.361.[
+   "INFO"
+]"Hider. Step":"9400000. Time Elapsed":"21906.088 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1668.819.[
+   "INFO"
+]"Hider. Step":"9450000. Time Elapsed":"21964.323 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1669.277.[
+   "INFO"
+]"Hider. Step":"9500000. Time Elapsed":"22022.356 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1669.762.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-9499956.onnx[
+   "INFO"
+]"Hider. Step":"9550000. Time Elapsed":"22081.019 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1670.252.[
+   "INFO"
+]"Hider. Step":"9600000. Time Elapsed":"22139.100 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1670.741.[
+   "INFO"
+]"Hider. Step":"9650000. Time Elapsed":"22198.482 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1671.231.[
+   "INFO"
+]"Hider. Step":"9700000. Time Elapsed":"22259.309 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1671.729.[
+   "INFO"
+]"Hider. Step":"9750000. Time Elapsed":"22319.927 s. Mean Reward":"0.890. Std of Reward":"0.456. Training. ELO":1670.562.[
+   "INFO"
+]"Hider. Step":"9800000. Time Elapsed":"22381.334 s. Mean Reward":"0.843. Std of Reward":"0.538. Training. ELO":1660.485.[
+   "INFO"
+]"Hider. Step":"9850000. Time Elapsed":"22441.941 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1659.225.[
+   "INFO"
+]"Hider. Step":"9900000. Time Elapsed":"22501.602 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1659.743.[
+   "INFO"
+]"Hider. Step":"9950000. Time Elapsed":"22561.106 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1660.229.[
+   "INFO"
+]"Hider. Step":"10000000. Time Elapsed":"22620.993 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1660.732.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-9999983.onnx[
+   "INFO"
+]"Seeker. Step":"9050000. Time Elapsed":"22680.108 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":723.931.
+[
+   "INFO"
+]"Seeker. Step":"9100000. Time Elapsed":"22738.876 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":723.498.[
+   308/1153
+][
+   "INFO"
+]"Seeker. Step":"9150000. Time Elapsed":"22797.517 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":723.068.[
+   "INFO"
+]"Seeker. Step":"9200000. Time Elapsed":"22856.169 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":722.604.[
+   "INFO"
+]"Seeker. Step":"9250000. Time Elapsed":"22915.422 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":722.142.[
+   "INFO"
+]"Seeker. Step":"9300000. Time Elapsed":"22972.228 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":721.719.[
+   "INFO"
+]"Seeker. Step":"9350000. Time Elapsed":"23030.830 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":721.262.[
+   "INFO"
+]"Seeker. Step":"9400000. Time Elapsed":"23090.068 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":720.808.[
+   "INFO"
+]"Seeker. Step":"9450000. Time Elapsed":"23148.959 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":720.356.[
+   "INFO"
+]"Seeker. Step":"9500000. Time Elapsed":"23207.570 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":719.906.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-9499979.onnx[
+   "INFO"
+]"Seeker. Step":"9550000. Time Elapsed":"23265.075 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":719.493.[
+   "INFO"
+]"Seeker. Step":"9600000. Time Elapsed":"23323.555 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":719.048.[
+   "INFO"
+]"Seeker. Step":"9650000. Time Elapsed":"23382.997 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":718.605.[
+   "INFO"
+]"Seeker. Step":"9700000. Time Elapsed":"23441.591 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":718.198.[
+   "INFO"
+]"Seeker. Step":"9750000. Time Elapsed":"23501.053 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":717.759.[
+   "INFO"
+]"Seeker. Step":"9800000. Time Elapsed":"23560.143 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":717.322.[
+   "INFO"
+]"Seeker. Step":"9850000. Time Elapsed":"23619.185 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":716.888.[
+   "INFO"
+]"Seeker. Step":"9900000. Time Elapsed":"23678.495 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":716.456.[
+   "INFO"
+]"Seeker. Step":"9950000. Time Elapsed":"23737.977 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":716.059.[
+   "INFO"
+]"Seeker. Step":"10000000. Time Elapsed":"23796.985 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":715.631.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-9999947.onnx[
+   "INFO"
+]"Hider. Step":"10050000. Time Elapsed":"23858.397 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1669.695.[
+   "INFO"
+]"Hider. Step":"10100000. Time Elapsed":"23917.906 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1670.448.[
+   "INFO"
+]"Hider. Step":"10150000. Time Elapsed":"23977.106 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1670.931.[
+   "INFO"
+]"Hider. Step":"10200000. Time Elapsed":"24036.102 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1671.429.[
+   "INFO"
+]"Hider. Step":"10250000. Time Elapsed":"24095.218 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1671.891.[
+   "INFO"
+]"Hider. Step":"10300000. Time Elapsed":"24154.054 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1672.299.[
+   "INFO"
+]"Hider. Step":"10350000. Time Elapsed":"24212.344 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1672.745.[
+   "INFO"
+]"Hider. Step":"10400000. Time Elapsed":"24270.248 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1673.193.[
+   "INFO"
+]"Hider. Step":"10450000. Time Elapsed":"24329.291 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1673.647.[
+   "INFO"
+]"Hider. Step":"10500000. Time Elapsed":"24388.584 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1674.155.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-10499976.onnx[
+   "INFO"
+]"Hider. Step":"10550000. Time Elapsed":"24447.607 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1674.577.[
+   "INFO"
+]"Hider. Step":"10600000. Time Elapsed":"24506.529 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1675.038.[
+   "INFO"
+]"Hider. Step":"10650000. Time Elapsed":"24565.623 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1675.475.[
+   "INFO"
+]"Hider. Step":"10700000. Time Elapsed":"24625.195 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1675.868.[
+   "INFO"
+]"Hider. Step":"10750000. Time Elapsed":"24684.916 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1676.305.[
+   "INFO"
+]"Hider. Step":"10800000. Time Elapsed":"24744.868 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1676.766.[
+   "INFO"
+]"Hider. Step":"10850000. Time Elapsed":"24805.163 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1677.232.[
+   "INFO"
+]"Hider. Step":"10900000. Time Elapsed":"24863.634 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1677.699.[
+   "INFO"
+]"Hider. Step":"10950000. Time Elapsed":"24923.232 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1678.123.[
+   "INFO"
+]"Hider. Step":"11000000. Time Elapsed":"24983.475 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1678.548.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-10999944.onnx[
+   "INFO"
+]"Seeker. Step":"10050000. Time Elapsed":"25041.715 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":711.432.[
+   "INFO"
+]"Seeker. Step":"10100000. Time Elapsed":"25100.611 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":711.004.[
+   "INFO"
+]"Seeker. Step":"10150000. Time Elapsed":"25160.527 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":710.542.[
+   "INFO"
+]"Seeker. Step":"10200000. Time Elapsed":"25219.899 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":710.083.[
+   "INFO"
+]"Seeker. Step":"10250000. Time Elapsed":"25278.569 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":709.656.[
+   "INFO"
+]"Seeker. Step":"10300000. Time Elapsed":"25336.289 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":709.296.[
+   "INFO"
+]"Seeker. Step":"10350000. Time Elapsed":"25394.012 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":708.908.[
+   "INFO"
+]"Seeker. Step":"10400000. Time Elapsed":"25453.014 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":708.521.[
+   "INFO"
+]"Seeker. Step":"10450000. Time Elapsed":"25512.223 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":708.136.[
+   "INFO"
+]"Seeker. Step":"10500000. Time Elapsed":"25570.698 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":707.663.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-10499979.onnx[
+   "INFO"
+]"Seeker. Step":"10550000. Time Elapsed":"25629.733 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":707.191.[
+   "INFO"
+]"Seeker. Step":"10600000. Time Elapsed":"25687.528 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":706.722.[
+   "INFO"
+]"Seeker. Step":"10650000. Time Elapsed":"25745.896 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":706.295.[
+   "INFO"
+]"Seeker. Step":"10700000. Time Elapsed":"25805.422 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":705.945.[
+   "INFO"
+]"Seeker. Step":"10750000. Time Elapsed":"25864.300 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":705.567.[
+   "INFO"
+]"Seeker. Step":"10800000. Time Elapsed":"25923.560 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":705.191.[
+   "INFO"
+]"Seeker. Step":"10850000. Time Elapsed":"25982.421 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":704.845.[
+   "INFO"
+]"Seeker. Step":"10900000. Time Elapsed":"26041.428 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":704.472.[
+   "INFO"
+]"Seeker. Step":"10950000. Time Elapsed":"26100.229 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":704.101.[
+   "INFO"
+]"Seeker. Step":"11000000. Time Elapsed":"26158.819 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":703.731.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-10999969.onnx[
+   "INFO"
+]"Hider. Step":"11050000. Time Elapsed":"26220.835 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1683.467.[
+   "INFO"
+]"Hider. Step":"11100000. Time Elapsed":"26279.975 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1683.814.[
+   "INFO"
+]"Hider. Step":"11150000. Time Elapsed":"26338.458 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1684.178.[
+   "INFO"
+]"Hider. Step":"11200000. Time Elapsed":"26397.377 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1684.566.[
+   "INFO"
+]"Hider. Step":"11250000. Time Elapsed":"26454.226 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1684.949.[
+   "INFO"
+]"Hider. Step":"11300000. Time Elapsed":"26513.437 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1685.308.[
+   "INFO"
+]"Hider. Step":"11350000. Time Elapsed":"26572.578 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1685.710.[
+   "INFO"
+]"Hider. Step":"11400000. Time Elapsed":"26631.927 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1686.122.[
+   "INFO"
+]"Hider. Step":"11450000. Time Elapsed":"26690.979 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1686.530.[
+   "INFO"
+]"Hider. Step":"11500000. Time Elapsed":"26750.303 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1686.924.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-11499939.onnx[
+   "INFO"
+]"Hider. Step":"11550000. Time Elapsed":"26809.976 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1687.268.[
+   "INFO"
+]"Hider. Step":"11600000. Time Elapsed":"26868.640 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1687.655.[
+   "INFO"
+]"Hider. Step":"11650000. Time Elapsed":"26927.848 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1688.085.[
+   "INFO"
+]"Hider. Step":"11700000. Time Elapsed":"26987.962 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1688.467.[
+   "INFO"
+]"Hider. Step":"11750000. Time Elapsed":"27052.581 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1688.850.[
+   "INFO"
+]"Hider. Step":"11800000. Time Elapsed":"27115.871 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1689.219.[
+   "INFO"
+]"Hider. Step":"11850000. Time Elapsed":"27175.199 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1689.593.[
+   "INFO"
+]"Hider. Step":"11900000. Time Elapsed":"27233.579 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1689.963.
+[
+   "INFO"
+]"Hider. Step":"11950000. Time Elapsed":"27293.643 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1690.303.[
+   "INFO"
+]"Hider. Step":"12000000. Time Elapsed":"27353.730 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1690.691.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-11999971.onnx[
+   "INFO"
+]"Seeker. Step":"11050000. Time Elapsed":"27410.891 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":699.746.[
+   "INFO"
+]"Seeker. Step":"11100000. Time Elapsed":"27470.117 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":699.349.[
+   "INFO"
+]"Seeker. Step":"11150000. Time Elapsed":"27529.717 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":698.921.[
+   "INFO"
+]"Seeker. Step":"11200000. Time Elapsed":"27589.124 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":698.528.[
+   "INFO"
+]"Seeker. Step":"11250000. Time Elapsed":"27647.136 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":698.075.[
+   "INFO"
+]"Seeker. Step":"11300000. Time Elapsed":"27706.485 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":697.579.[
+   "INFO"
+]"Seeker. Step":"11350000. Time Elapsed":"27765.245 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":697.086.[
+   "INFO"
+]"Seeker. Step":"11400000. Time Elapsed":"27823.385 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":696.596.[
+   "INFO"
+]"Seeker. Step":"11450000. Time Elapsed":"27881.908 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":696.194.[
+   "INFO"
+]"Seeker. Step":"11500000. Time Elapsed":"27940.427 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":695.855.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-11499979.onnx[
+   "INFO"
+]"Seeker. Step":"11550000. Time Elapsed":"27999.305 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":695.519.[
+   "INFO"
+]"Seeker. Step":"11600000. Time Elapsed":"28057.633 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":695.210.[
+   "INFO"
+]"Seeker. Step":"11650000. Time Elapsed":"28116.424 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":694.877.[
+   "INFO"
+]"Seeker. Step":"11700000. Time Elapsed":"28175.807 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":694.545.[
+   "INFO"
+]"Seeker. Step":"11750000. Time Elapsed":"28234.701 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":694.214.[
+   "INFO"
+]"Seeker. Step":"11800000. Time Elapsed":"28292.813 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":693.884.[
+   "INFO"
+]"Seeker. Step":"11850000. Time Elapsed":"28351.647 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":693.562.[
+   "INFO"
+]"Seeker. Step":"11900000. Time Elapsed":"28412.031 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":693.178.[
+   "INFO"
+]"Seeker. Step":"11950000. Time Elapsed":"28470.859 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":692.795.[
+   "INFO"
+]"Seeker. Step":"12000000. Time Elapsed":"28529.011 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":692.443.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-11999979.onnx[
+   "INFO"
+]"Hider. Step":"12050000. Time Elapsed":"28591.768 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1693.660.[
+   "INFO"
+]"Hider. Step":"12100000. Time Elapsed":"28650.125 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1693.976.[
+   "INFO"
+]"Hider. Step":"12150000. Time Elapsed":"28709.481 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1694.281.[
+   "INFO"
+]"Hider. Step":"12200000. Time Elapsed":"28767.944 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1694.633.[
+   "INFO"
+]"Hider. Step":"12250000. Time Elapsed":"28827.331 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1694.980.[
+   "INFO"
+]"Hider. Step":"12300000. Time Elapsed":"28886.215 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1695.301.[
+   "INFO"
+]"Hider. Step":"12350000. Time Elapsed":"28945.260 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1695.653.[
+   "INFO"
+]"Hider. Step":"12400000. Time Elapsed":"29004.311 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1695.988.[
+   "INFO"
+]"Hider. Step":"12450000. Time Elapsed":"29063.491 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1696.338.[
+   "INFO"
+]"Hider. Step":"12500000. Time Elapsed":"29122.744 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1696.678.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-12499966.onnx[
+   "INFO"
+]"Hider. Step":"12550000. Time Elapsed":"29180.907 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1697.005.[
+   "INFO"
+]"Hider. Step":"12600000. Time Elapsed":"29239.623 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1697.347.[
+   "INFO"
+]"Hider. Step":"12650000. Time Elapsed":"29299.097 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1697.680.[
+   "INFO"
+]"Hider. Step":"12700000. Time Elapsed":"29358.289 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1697.989.[
+   "INFO"
+]"Hider. Step":"12750000. Time Elapsed":"29417.414 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1698.329.[
+   "INFO"
+]"Hider. Step":"12800000. Time Elapsed":"29476.091 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1698.671.[
+   "INFO"
+]"Hider. Step":"12850000. Time Elapsed":"29536.648 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1698.998.[
+   "INFO"
+]"Hider. Step":"12900000. Time Elapsed":"29594.850 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1699.325.[
+   "INFO"
+]"Hider. Step":"12950000. Time Elapsed":"29654.597 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1699.652.[
+   "INFO"
+]"Hider. Step":"13000000. Time Elapsed":"29714.658 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1699.986.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-12999998.onnx[
+   "INFO"
+]"Seeker. Step":"12050000. Time Elapsed":"29771.105 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":688.916.[
+   "INFO"
+]"Seeker. Step":"12100000. Time Elapsed":"29831.136 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":687.969.[
+   "INFO"
+]"Seeker. Step":"12150000. Time Elapsed":"29889.572 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":687.665.[
+   "INFO"
+]"Seeker. Step":"12200000. Time Elapsed":"29949.464 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":687.385.[
+   "INFO"
+]"Seeker. Step":"12250000. Time Elapsed":"30008.705 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":687.018.[
+   "INFO"
+]"Seeker. Step":"12300000. Time Elapsed":"30066.819 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":686.560.[
+   "INFO"
+]"Seeker. Step":"12350000. Time Elapsed":"30125.911 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":686.137.[
+   "INFO"
+]"Seeker. Step":"12400000. Time Elapsed":"30185.605 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":685.681.[
+   "INFO"
+]"Seeker. Step":"12450000. Time Elapsed":"30243.843 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":685.277.[
+   "INFO"
+]"Seeker. Step":"12500000. Time Elapsed":"30304.165 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":684.977.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-12499979.onnx[
+   "INFO"
+]"Seeker. Step":"12550000. Time Elapsed":"30363.026 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":684.680.[
+   "INFO"
+]"Seeker. Step":"12600000. Time Elapsed":"30420.993 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":684.406.[
+   "INFO"
+]"Seeker. Step":"12650000. Time Elapsed":"30481.841 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":683.985.[
+   "INFO"
+]"Seeker. Step":"12700000. Time Elapsed":"30542.599 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":683.382.[
+   "INFO"
+]"Seeker. Step":"12750000. Time Elapsed":"30602.827 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":682.780.[
+   "INFO"
+]"Seeker. Step":"12800000. Time Elapsed":"30662.491 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":682.182.[
+   "INFO"
+]"Seeker. Step":"12850000. Time Elapsed":"30721.808 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":681.669.[
+   "INFO"
+]"Seeker. Step":"12900000. Time Elapsed":"30780.159 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":681.184.[
+   "INFO"
+]"Seeker. Step":"12950000. Time Elapsed":"30838.088 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":680.703.[
+   "INFO"
+]"Seeker. Step":"13000000. Time Elapsed":"30896.979 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":680.261.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-12999979.onnx[
+   "INFO"
+]"Hider. Step":"13050000. Time Elapsed":"30960.109 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1702.619.[
+   "INFO"
+]"Hider. Step":"13100000. Time Elapsed":"31019.262 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1702.915.[
+   "INFO"
+]"Hider. Step":"13150000. Time Elapsed":"31076.876 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1703.204.[
+   "INFO"
+]"Hider. Step":"13200000. Time Elapsed":"31133.440 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1703.525.[
+   "INFO"
+]"Hider. Step":"13250000. Time Elapsed":"31191.916 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1703.826.[
+   "INFO"
+]"Hider. Step":"13300000. Time Elapsed":"31251.122 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1704.111.[
+   "INFO"
+]"Hider. Step":"13350000. Time Elapsed":"31310.574 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1704.434.[
+   "INFO"
+]"Hider. Step":"13400000. Time Elapsed":"31369.715 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1704.727.[
+   "INFO"
+]"Hider. Step":"13450000. Time Elapsed":"31428.115 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1705.058.[
+   "INFO"
+]"Hider. Step":"13500000. Time Elapsed":"31487.138 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1705.375.
+[
+   "INFO"
+]"Hider. Step":"13550000. Time Elapsed":"31546.274 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1705.660.[
+   "INFO"
+]"Hider. Step":"13600000. Time Elapsed":"31604.792 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1705.984.[
+   "INFO"
+]"Hider. Step":"13650000. Time Elapsed":"31663.607 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1706.281.[
+   "INFO"
+]"Hider. Step":"13700000. Time Elapsed":"31722.781 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1706.562.[
+   "INFO"
+]"Hider. Step":"13750000. Time Elapsed":"31780.555 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1706.868.[
+   "INFO"
+]"Hider. Step":"13800000. Time Elapsed":"31839.226 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1707.177.[
+   "INFO"
+]"Hider. Step":"13850000. Time Elapsed":"31898.825 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1707.463.[
+   "INFO"
+]"Hider. Step":"13900000. Time Elapsed":"31956.830 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1707.770.[
+   "INFO"
+]"Hider. Step":"13950000. Time Elapsed":"32016.251 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1708.053.[
+   "INFO"
+]"Hider. Step":"14000000. Time Elapsed":"32076.447 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1708.350.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-13999961.onnx[
+   "INFO"
+]"Seeker. Step":"13050000. Time Elapsed":"32132.044 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":677.653.[
+   "INFO"
+]"Seeker. Step":"13100000. Time Elapsed":"32190.413 s. Mean Reward":"-0.959. Std of Reward":"0.283. Training. ELO":677.959.[
+   "INFO"
+]"Seeker. Step":"13150000. Time Elapsed":"32250.672 s. Mean Reward":"0.581. Std of Reward":"0.814. Training. ELO":760.126.[
+   "INFO"
+]"Seeker. Step":"13200000. Time Elapsed":"32312.083 s. Mean Reward":"0.764. Std of Reward":"0.645. Training. ELO":1006.959.[
+   "INFO"
+]"Seeker. Step":"13250000. Time Elapsed":"32375.059 s. Mean Reward":"0.805. Std of Reward":"0.593. Training. ELO":1207.138.[
+   "INFO"
+]"Seeker. Step":"13300000. Time Elapsed":"32437.044 s. Mean Reward":"0.704. Std of Reward":"0.710. Training. ELO":1285.114.[
+   "INFO"
+]"Seeker. Step":"13350000. Time Elapsed":"32499.042 s. Mean Reward":"0.668. Std of Reward":"0.744. Training. ELO":1306.630.[
+   "INFO"
+]"Seeker. Step":"13400000. Time Elapsed":"32560.778 s. Mean Reward":"0.764. Std of Reward":"0.645. Training. ELO":1322.534.[
+   "INFO"
+]"Seeker. Step":"13450000. Time Elapsed":"32621.797 s. Mean Reward":"-0.295. Std of Reward":"0.956. Training. ELO":1335.466.[
+   "INFO"
+]"Seeker. Step":"13500000. Time Elapsed":"32682.359 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1321.903.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-13499975.onnx[
+   "INFO"
+]"Seeker. Step":"13550000. Time Elapsed":"32741.909 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1307.307.[
+   "INFO"
+]"Seeker. Step":"13600000. Time Elapsed":"32800.754 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1294.478.[
+   "INFO"
+]"Seeker. Step":"13650000. Time Elapsed":"32860.989 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1284.675.[
+   "INFO"
+]"Seeker. Step":"13700000. Time Elapsed":"32920.920 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1276.645.[
+   "INFO"
+]"Seeker. Step":"13750000. Time Elapsed":"32980.416 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1269.296.[
+   "INFO"
+]"Seeker. Step":"13800000. Time Elapsed":"33040.346 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1262.559.[
+   "INFO"
+]"Seeker. Step":"13850000. Time Elapsed":"33100.493 s. Mean Reward":"-0.162. Std of Reward":"0.987. Training. ELO":1226.926.[
+   "INFO"
+]"Seeker. Step":"13900000. Time Elapsed":"33162.411 s. Mean Reward":"0.727. Std of Reward":"0.687. Training. ELO":1247.838.[
+   "INFO"
+]"Seeker. Step":"13950000. Time Elapsed":"33224.250 s. Mean Reward":"0.683. Std of Reward":"0.731. Training. ELO":1271.495.[
+   "INFO"
+]"Seeker. Step":"14000000. Time Elapsed":"33285.763 s. Mean Reward":"0.695. Std of Reward":"0.719. Training. ELO":1284.851.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-13999995.onnx[
+   "INFO"
+]"Hider. Step":"14050000. Time Elapsed":"33351.524 s. Mean Reward":"-0.534. Std of Reward":"0.845. Training. ELO":1015.756.[
+   "INFO"
+]"Hider. Step":"14100000. Time Elapsed":"33412.102 s. Mean Reward":"-0.579. Std of Reward":"0.815. Training. ELO":1027.384.[
+   "INFO"
+]"Hider. Step":"14150000. Time Elapsed":"33473.004 s. Mean Reward":"-0.730. Std of Reward":"0.683. Training. ELO":1005.085.[
+   "INFO"
+]"Hider. Step":"14200000. Time Elapsed":"33534.169 s. Mean Reward":"-0.536. Std of Reward":"0.844. Training. ELO":982.276.[
+   "INFO"
+]"Hider. Step":"14250000. Time Elapsed":"33595.438 s. Mean Reward":"-0.892. Std of Reward":"0.452. Training. ELO":962.482.[
+   "INFO"
+]"Hider. Step":"14300000. Time Elapsed":"33656.389 s. Mean Reward":"0.624. Std of Reward":"0.781. Training. ELO":976.324.[
+   "INFO"
+]"Hider. Step":"14350000. Time Elapsed":"33716.657 s. Mean Reward":"0.939. Std of Reward":"0.343. Training. ELO":1021.732.[
+   "INFO"
+]"Hider. Step":"14400000. Time Elapsed":"33778.282 s. Mean Reward":"0.372. Std of Reward":"0.928. Training. ELO":1065.956.[
+   "INFO"
+]"Hider. Step":"14450000. Time Elapsed":"33837.956 s. Mean Reward":"0.007. Std of Reward":"1.000. Training. ELO":1078.306.[
+   "INFO"
+]"Hider. Step":"14500000. Time Elapsed":"33898.916 s. Mean Reward":"0.397. Std of Reward":"0.918. Training. ELO":1077.777.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-14499999.onnx[
+   "INFO"
+]"Hider. Step":"14550000. Time Elapsed":"33959.317 s. Mean Reward":"0.980. Std of Reward":"0.199. Training. ELO":1117.022.[
+   "INFO"
+]"Hider. Step":"14600000. Time Elapsed":"34020.172 s. Mean Reward":"0.836. Std of Reward":"0.548. Training. ELO":1154.638.[
+   "INFO"
+]"Hider. Step":"14650000. Time Elapsed":"34080.639 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1193.331.[
+   "INFO"
+]"Hider. Step":"14700000. Time Elapsed":"34141.507 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1230.046.[
+   "INFO"
+]"Hider. Step":"14750000. Time Elapsed":"34201.701 s. Mean Reward":"0.960. Std of Reward":"0.280. Training. ELO":1251.227.[
+   "INFO"
+]"Hider. Step":"14800000. Time Elapsed":"34262.017 s. Mean Reward":"0.980. Std of Reward":"0.199. Training. ELO":1266.231.[
+   "INFO"
+]"Hider. Step":"14850000. Time Elapsed":"34322.184 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1281.327.[
+   "INFO"
+]"Hider. Step":"14900000. Time Elapsed":"34382.954 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1297.155.[
+   "INFO"
+]"Hider. Step":"14950000. Time Elapsed":"34443.786 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1314.589.[
+   "INFO"
+]"Hider. Step":"15000000. Time Elapsed":"34505.182 s. Mean Reward":"0.962. Std of Reward":"0.275. Training. ELO":1329.514.[
+   "INFO"
+]Exported results/ppo/Hider/Hider-14999985.onnx[
+   "INFO"
+]"Seeker. Step":"14050000. Time Elapsed":"34561.802 s. Mean Reward":"-0.521. Std of Reward":"0.853. Training. ELO":1134.019.[
+   "INFO"
+]"Seeker. Step":"14100000. Time Elapsed":"34618.804 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1049.307.[
+   "INFO"
+]"Seeker. Step":"14150000. Time Elapsed":"34677.533 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1035.283.[
+   "INFO"
+]"Seeker. Step":"14200000. Time Elapsed":"34737.076 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1022.958.[
+   "INFO"
+]"Seeker. Step":"14250000. Time Elapsed":"34795.380 s. Mean Reward":"-0.964. Std of Reward":"0.265. Training. ELO":1016.628.[
+   "INFO"
+]"Seeker. Step":"14300000. Time Elapsed":"34855.341 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1013.683.[
+   "INFO"
+]"Seeker. Step":"14350000. Time Elapsed":"34914.639 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1010.833.[
+   "INFO"
+]"Seeker. Step":"14400000. Time Elapsed":"34973.979 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1007.875.[
+   "INFO"
+]"Seeker. Step":"14450000. Time Elapsed":"35033.652 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1005.453.[
+   "INFO"
+]"Seeker. Step":"14500000. Time Elapsed":"35092.948 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1003.909.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-14499969.onnx[
+   "INFO"
+]"Seeker. Step":"14550000. Time Elapsed":"35152.615 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1002.406.[
+   "INFO"
+]"Seeker. Step":"14600000. Time Elapsed":"35211.711 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":1001.041.[
+   "INFO"
+]"Seeker. Step":"14650000. Time Elapsed":"35270.282 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":982.266.[
+   "INFO"
+]"Seeker. Step":"14700000. Time Elapsed":"35327.435 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":944.450.[
+   "INFO"
+]"Seeker. Step":"14750000. Time Elapsed":"35386.645 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":916.840.[
+   "INFO"
+]"Seeker. Step":"14800000. Time Elapsed":"35445.928 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":893.108.[
+   "INFO"
+]"Seeker. Step":"14850000. Time Elapsed":"35506.394 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":877.897.[
+   "INFO"
+]"Seeker. Step":"14900000. Time Elapsed":"35565.662 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":872.769.[
+   "INFO"
+]"Seeker. Step":"14950000. Time Elapsed":"35625.280 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":868.056.[
+   "INFO"
+]"Seeker. Step":"15000000. Time Elapsed":"35684.631 s. Mean Reward":"-1.000. Std of Reward":"0.000. Training. ELO":863.916.[
+   "INFO"
+]Exported results/ppo/Seeker/Seeker-14999981.onnx[
+   "INFO"
+]"Hider. Step":"15050000. Time Elapsed":"35748.910 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1411.071.[
+   "INFO"
+]"Hider. Step":"15100000. Time Elapsed":"35807.441 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1419.901.[
+   "INFO"
+]"Hider. Step":"15150000. Time Elapsed":"35866.263 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1423.159.[
+   "INFO"
+]"Hider. Step":"15200000. Time Elapsed":"35923.787 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1427.987.[
+   "INFO"
+]"Hider. Step":"15250000. Time Elapsed":"35982.709 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1434.176.[
+   "INFO"
+]"Hider. Step":"15300000. Time Elapsed":"36042.391 s. Mean Reward":"1.000. Std of Reward":"0.000. Training. ELO":1437.955.
