@@ -19,9 +19,12 @@ public class Hider : Agent
     public float viewDistance = 100f;
     public int timeStep;
     //private DebugSideChannel debugSideChannel;
+    public BreadCrumbs breadCrumbs;
+    public StepTrace stepTrace;
 
     void Start()
     {
+        stepTrace = new StepTrace();
         obstacleMask = LayerMask.GetMask("Obstacle");
         agentMask = LayerMask.GetMask("Agent");
         Debug.LogFormat("obstace {0}", obstacleMask);
@@ -87,20 +90,49 @@ public class Hider : Agent
         }
     }
 
+    public int[] GetSurroundingSteps() 
+    {
+        int x = (int)transform.localPosition[0];
+        int z = (int)transform.localPosition[2];
+        return stepTrace.GetSurroundingSteps(x, z);
+    }
+
     public override void CollectObservations(VectorSensor sensor)
     {
         sensor.AddObservation(transform.localPosition);
         //sensor.AddObservation(otherAgent.transform.localPosition);
         sensor.AddObservation(timeStep);
+        float[] steptrace = System.Array.ConvertAll(otherAgent.GetSurroundingSteps(), item => (float)item);
+        //sensor.AddObservation(steptrace);
     }
-    
+
+    void DebugLogArray(int[,] array)
+    {
+        string arrayOutput = "";
+        for (int i = 0; i < array.GetLength(0); i++)  
+        {
+            for (int j = 0; j < array.GetLength(1); j++)  
+            {
+                arrayOutput += array[i, j] + "\t";  
+            }
+            arrayOutput += "\n";  
+        }
+        Debug.Log(arrayOutput);  
+    }
+
     public override void OnActionReceived(ActionBuffers actions)
     {
-        int action = actions.DiscreteActions[0];
+ 
         if (Time.time < nextMoveTime)
         {
             return;
         }
+        int action = actions.DiscreteActions[0];
+        Debug.LogFormat("action hider {0}", action);
+
+        stepTrace.IncrementAll();
+        stepTrace.UpdateSteps((int)transform.localPosition[0], (int)transform.localPosition[2]);
+
         timeStep += 1;
 
         nextMoveTime = Time.time + moveCooldown;
@@ -151,6 +183,7 @@ public class Hider : Agent
 
         if ( (timeStep + 1) % 50 == 0) {
             Debug.Log("Out of time");
+            stepTrace.Reset();
             SetReward(1.0f);
             EndEpisode();
         }
