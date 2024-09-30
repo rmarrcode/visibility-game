@@ -90,20 +90,28 @@ public class Seeker : Agent
         }
     }
 
-    public int[] GetSurroundingSteps() 
-    {
-        int x = (int)transform.localPosition[0];
-        int z = (int)transform.localPosition[2];
-        return stepTrace.GetSurroundingSteps(x, z);
-    }
-
     public override void CollectObservations(VectorSensor sensor)
     {
         sensor.AddObservation(transform.localPosition);
-        //sensor.AddObservation(otherAgent.transform.localPosition);
         sensor.AddObservation(timeStep);
-        float[] steptrace = System.Array.ConvertAll(otherAgent.GetSurroundingSteps(), item => (float)item);
-        //sensor.AddObservation(steptrace);
+        int x = (int)transform.localPosition[0];
+        int z = (int)transform.localPosition[2];        
+        float[] steptrace = System.Array.ConvertAll(otherAgent.stepTrace.GetSurroundingSteps(x, z), item => (float)item);
+        sensor.AddObservation(steptrace);
+        // Debug.LogFormat("x {0} z {1}", x, z);
+        // DebugLogArray(otherAgent.stepTrace.GetSteps());
+        // DebugStepTrace(steptrace);
+    }
+
+    void DebugStepTrace(float[] arr)
+    {
+        string arrayOutput = "";
+        for (int i = 0; i < 8; i++) 
+        {
+            arrayOutput += arr[i] + "\t";
+        }
+        arrayOutput += "\n";
+        Debug.Log(arrayOutput);
     }
 
     void DebugLogArray(int[,] array)
@@ -128,10 +136,10 @@ public class Seeker : Agent
             return;
         }
         int action = actions.DiscreteActions[0];
-        Debug.LogFormat("action seeker {0}", action);
 
         stepTrace.IncrementAll();
         stepTrace.UpdateSteps((int)transform.localPosition[0], (int)transform.localPosition[2]);
+
 
         timeStep += 1;
 

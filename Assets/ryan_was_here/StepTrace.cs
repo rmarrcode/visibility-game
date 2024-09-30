@@ -9,6 +9,11 @@ public class StepTrace
 {
     int[,] steps;
 
+    public int[,] GetSteps()
+    {
+        return steps;
+    }
+
     public StepTrace()
     {
         Reset();
@@ -20,7 +25,7 @@ public class StepTrace
         {
             for (int z = 0; z < 10; z++)
             {
-                steps[x, z] = int.MaxValue;
+                steps[x, z] = 50;
             }
         }
     }
@@ -30,7 +35,7 @@ public class StepTrace
         {
             for (int z = 0; z < 10; z++)
             {
-                if (steps[x, z] != int.MaxValue) 
+                if (steps[x, z] != 50) 
                 {
                     steps[x, z]++;
                 }
@@ -59,14 +64,14 @@ public class StepTrace
     public int[] GetSurroundingSteps(int x, int z)
     {
         int[] vision = new int[8];
-        vision[0] = InBounds(x-1, z-1) ? steps[x,z] : int.MaxValue;
-        vision[1] = InBounds(x-1, z) ? steps[x,z] : int.MaxValue;
-        vision[2] = InBounds(x-1, z+1) ? steps[x,z] : int.MaxValue;
-        vision[3] = InBounds(x, z-1) ? steps[x,z] : int.MaxValue;
-        vision[4] = InBounds(x, z+1) ? steps[x,z] : int.MaxValue;
-        vision[5] = InBounds(x+1, z-1) ? steps[x,z] : int.MaxValue;
-        vision[6] = InBounds(x+1, z) ? steps[x,z] : int.MaxValue;
-        vision[7] = InBounds(x+1, z+1) ? steps[x,z] : int.MaxValue;
+        vision[0] = InBounds(x-1, z-1) ? steps[x-1,z-1] : 50;
+        vision[1] = InBounds(x-1, z) ? steps[x-1,z] : 50;
+        vision[2] = InBounds(x-1, z+1) ? steps[x-1,z+1] : 50;
+        vision[3] = InBounds(x, z-1) ? steps[x,z-1] : 50;
+        vision[4] = InBounds(x, z+1) ? steps[x,z+1] : 50;
+        vision[5] = InBounds(x+1, z-1) ? steps[x+1,z-1] : 50;
+        vision[6] = InBounds(x+1, z) ? steps[x+1,z] : 50;
+        vision[7] = InBounds(x+1, z+1) ? steps[x+1,z+1] : 50;
         return vision;
     }
 

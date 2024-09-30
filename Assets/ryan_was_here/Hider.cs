@@ -27,8 +27,6 @@ public class Hider : Agent
         stepTrace = new StepTrace();
         obstacleMask = LayerMask.GetMask("Obstacle");
         agentMask = LayerMask.GetMask("Agent");
-        Debug.LogFormat("obstace {0}", obstacleMask);
-        Debug.LogFormat("agent {0}", agentMask);
     }
 
     public override void Initialize()
@@ -90,20 +88,15 @@ public class Hider : Agent
         }
     }
 
-    public int[] GetSurroundingSteps() 
-    {
-        int x = (int)transform.localPosition[0];
-        int z = (int)transform.localPosition[2];
-        return stepTrace.GetSurroundingSteps(x, z);
-    }
-
     public override void CollectObservations(VectorSensor sensor)
     {
         sensor.AddObservation(transform.localPosition);
         //sensor.AddObservation(otherAgent.transform.localPosition);
         sensor.AddObservation(timeStep);
-        float[] steptrace = System.Array.ConvertAll(otherAgent.GetSurroundingSteps(), item => (float)item);
-        //sensor.AddObservation(steptrace);
+        int x = (int)transform.localPosition[0];
+        int z = (int)transform.localPosition[2];        
+        float[] steptrace = System.Array.ConvertAll(otherAgent.stepTrace.GetSurroundingSteps(x, z), item => (float)item);
+        sensor.AddObservation(steptrace);
     }
 
     void DebugLogArray(int[,] array)
@@ -128,7 +121,6 @@ public class Hider : Agent
             return;
         }
         int action = actions.DiscreteActions[0];
-        Debug.LogFormat("action hider {0}", action);
 
         stepTrace.IncrementAll();
         stepTrace.UpdateSteps((int)transform.localPosition[0], (int)transform.localPosition[2]);
