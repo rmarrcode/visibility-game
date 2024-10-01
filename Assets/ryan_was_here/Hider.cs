@@ -5,6 +5,7 @@ using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
 using Unity.MLAgents.SideChannels;
+using System;
 
 public class Hider : Agent
 {
@@ -123,6 +124,7 @@ public class Hider : Agent
         int action = actions.DiscreteActions[0];
 
         stepTrace.IncrementAll();
+        Debug.LogFormat("hider x {0}", transform.localPosition[0]);
         stepTrace.UpdateSteps((int)transform.localPosition[0], (int)transform.localPosition[2]);
 
         timeStep += 1;
@@ -152,18 +154,19 @@ public class Hider : Agent
                 break;
         }
 
-        Vector3 adjustedCurrentPosition = currentPosition;
-        adjustedCurrentPosition.x -= .5f;
-        adjustedCurrentPosition.y -= .5f;
-        adjustedCurrentPosition.z -= .5f;
-
-        bool contains = ContainsVector3(obstacles, adjustedCurrentPosition);
-
+        Vector3 zeroAdjustedCurrentPosition = currentPosition;
+        zeroAdjustedCurrentPosition.x -= .5f;
+        zeroAdjustedCurrentPosition.y -= .5f;
+        zeroAdjustedCurrentPosition.z -= .5f;
+        zeroAdjustedCurrentPosition.x = (float)Math.Round(zeroAdjustedCurrentPosition.x);
+        zeroAdjustedCurrentPosition.y = (float)Math.Round(zeroAdjustedCurrentPosition.y);
+        zeroAdjustedCurrentPosition.z = (float)Math.Round(zeroAdjustedCurrentPosition.z);
+        bool contains = ContainsVector3(obstacles, zeroAdjustedCurrentPosition);
         if (!contains)
         {
-            if (adjustedCurrentPosition.x >= -.5 && adjustedCurrentPosition.x <= 9.5 && adjustedCurrentPosition.z >= -.5 && adjustedCurrentPosition.z <= 9.5)
+            if (zeroAdjustedCurrentPosition.x >= 0 && zeroAdjustedCurrentPosition.x <= 9 && zeroAdjustedCurrentPosition.z >= 0 && zeroAdjustedCurrentPosition.z <= 9)
             {
-                transform.localPosition = currentPosition;
+                transform.localPosition = new Vector3(zeroAdjustedCurrentPosition.x + 0.5f, zeroAdjustedCurrentPosition.y + 0.5f, zeroAdjustedCurrentPosition.z + 0.5f);
                 if (moveDirection != Vector3.zero)
                 {
                     transform.rotation = Quaternion.LookRotation(moveDirection);
@@ -172,7 +175,6 @@ public class Hider : Agent
         }
 
         bool isOtherAgentVisible = IsOtherAgentVisible();
-
         if ( (timeStep + 1) % 50 == 0) {
             Debug.Log("Out of time");
             stepTrace.Reset();

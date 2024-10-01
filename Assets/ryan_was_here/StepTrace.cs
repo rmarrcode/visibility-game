@@ -4,6 +4,7 @@ using UnityEngine;
 using Unity.MLAgents;
 using System.Diagnostics;  // Add this for StackTrace
 using Debug = UnityEngine.Debug;  // Explicitly define Debug as UnityEngine.Debug
+using System;
 
 public class StepTrace
 {
@@ -43,9 +44,17 @@ public class StepTrace
         }
     }
 
-    public void UpdateSteps(int x,int z)
+    public void UpdateSteps(int x, int z)
     {
-        steps[x,z] = 0;
+        if (x < 0 || x >= steps.GetLength(0))
+        {
+            throw new IndexOutOfRangeException($"Index out of bounds: x = {x}");
+        }
+        if (z < 0 || z >= steps.GetLength(1))
+        {
+            throw new IndexOutOfRangeException($"Index out of bounds: z = {z}");
+        }
+        steps[x, z] = 0;
     }
 
     public int[,] GetStepTrace() {
