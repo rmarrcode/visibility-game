@@ -11,7 +11,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/visibility-game-goal.unity
     guid: 9c1752e7a8d573b45a87ead0cdc83e10
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/hide-and-seek-time.unity
     guid: 4684b572fa441ed478d19a611956a7da
+  - enabled: 0
+    path: Assets/Scenes/hide-and-seek-time-breadcrumbs-batch.unity
+    guid: 20b4179c1bfaed0479721e9f8c5ac6b3
+  - enabled: 0
+    path: Assets/Scenes/hide-and-seek-time-breadcrumbs-big.unity
+    guid: 8de2102637aa03b4c911ef497a1b612c
+  - enabled: 1
+    path: Assets/Scenes/hide-and-seek-time-breadcrumbs-big-batch.unity
+    guid: a86602336a99243468ae31a8cd2086d9
   m_configObjects: {}

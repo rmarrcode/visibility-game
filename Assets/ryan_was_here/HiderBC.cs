@@ -7,10 +7,10 @@ using Unity.MLAgents.Sensors;
 using Unity.MLAgents.SideChannels;
 using System;
 
-public class Seeker : Agent
+public class HiderBC : Agent
 {
     private Rigidbody agentRigidbody;
-    public Hider otherAgent; 
+    public Seeker otherAgent; 
     public GameObject plane;
     private float moveCooldown = 0.2f;
     private float nextMoveTime = 0f;
@@ -18,9 +18,10 @@ public class Seeker : Agent
     public LayerMask obstacleMask;
     public LayerMask agentMask;
     public float viewDistance = 100f;
-    private DebugSideChannel debugSideChannel;
     public int timeStep;
+    //private DebugSideChannel debugSideChannel;
     public StepTrace stepTrace;
+    public PreDefinedRoutes preDefinedRoutes;
 
     void Start()
     {
@@ -38,7 +39,7 @@ public class Seeker : Agent
         }
         agentRigidbody.freezeRotation = true;
         agentRigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
-
+        //visibilityPrecomputation = FindObjectOfType<VisibilityPrecomputation>();
         Renderer planeRenderer = plane.GetComponent<Renderer>();
         if (planeRenderer != null)
         {
@@ -74,8 +75,8 @@ public class Seeker : Agent
 
     public override void OnEpisodeBegin()
     {
-        Vector3 testPosition = new Vector3(9.5f, 0.5f, 0.5f);
-        Vector3 testAngle = new Vector3(0f, 180f, 0f);
+        Vector3 testPosition = new Vector3(0.5f, 0.5f, 5.5f);
+        Vector3 testAngle = new Vector3(0, 0, 0);
         timeStep = 0;
 
         transform.localPosition = testPosition;
@@ -86,42 +87,23 @@ public class Seeker : Agent
         {
             planeRenderer.material.color = new Color(0.23f, 0.23f, 0.23f, 1f); 
         }
+        preDefinedRoutes = new PreDefinedRoutes();
     }
 
     public override void CollectObservations(VectorSensor sensor)
     {
         sensor.AddObservation(transform.localPosition);
-        //sensor.AddObservation(timeStep);
+        // sensor.AddObservation(otherAgent.transform.localPosition);
+        sensor.AddObservation(timeStep);
         int x = (int)transform.localPosition[0];
-        int z = (int)transform.localPosition[2];        
-        //float[] steptrace = System.Array.ConvertAll(otherAgent.stepTrace.GetSurroundingSteps(x, z), item => (float)item);
-        
-        float[] surrounding_steps = otherAgent.stepTrace.GetSurroundingSteps(((int)transform.localPosition[0])+10, ((int)transform.localPosition[2])+10);
-        sensor.AddObservation(surrounding_steps);
-        // Debug.LogFormat("x {0} z {1}", x, z);
-        //DebugLogArray(otherAgent.stepTrace.GetSteps());
-        DebugStepTrace(surrounding_steps);
-        float bcreward = 0;
-        for (int i = 0; i < 8; i++)
-        {
-            bcreward += surrounding_steps[i];
-        }
-        Debug.Log(bcreward);
-        SetReward(bcreward);
+        int z = (int)transform.localPosition[2];      
+        float[] steptrace = otherAgent.stepTrace.GetSurroundingSteps(x, z);  
+        sensor.AddObservation(steptrace);
+        // DebugLogArray(otherAgent.stepTrace.GetSteps());
+        // DebugStepTrace(steptrace);
     }
 
-    void DebugStepTrace(float[] arr)
-    {
-        string arrayOutput = "";
-        for (int i = 0; i < 8; i++) 
-        {
-            arrayOutput += arr[i] + "\t";
-        }
-        arrayOutput += "\n";
-        Debug.Log(arrayOutput);
-    }
-
-    void DebugLogArray(float[,] array)
+    void DebugLogArray(int[,] array)
     {
         string arrayOutput = "";
         for (int i = 0; i < array.GetLength(0); i++)  
@@ -137,15 +119,17 @@ public class Seeker : Agent
 
     public override void OnActionReceived(ActionBuffers actions)
     {
-
+ 
         if (Time.time < nextMoveTime)
         {
             return;
         }
-        int action = actions.DiscreteActions[0];
+        //int action = actions.DiscreteActions[0];
+        int action = preDefinedRoutes.NextAction();
 
+        //Debug.LogFormat("Hider x: {0} y: {1} z: {2}", transform.localPosition[0], transform.localPosition[1], transform.localPosition[2]);
         stepTrace.IncrementAll();
-        stepTrace.UpdateSteps(((int)transform.localPosition[0])+10, ((int)transform.localPosition[2])+10);
+        stepTrace.UpdateSteps((int)transform.localPosition[0], (int)transform.localPosition[2]);
 
         timeStep += 1;
 
@@ -199,18 +183,10 @@ public class Seeker : Agent
         }
 
         bool isOtherAgentVisible = IsOtherAgentVisible();
-        if (isOtherAgentVisible)
-        {
-            Debug.Log("Found");
-            StartCoroutine(ChangePlaneColorTemporarily(Color.red, .5f));
-            SetReward(10.0f);
-            otherAgent.Eliminate();
-            EndEpisode();
-        }
         if ( (timeStep + 1) % 100 == 0) {
             Debug.Log("Out of time");
             stepTrace.Reset();
-            //SetReward(-1.0f);
+            SetReward(1.0f);
             EndEpisode();
         }
     }
@@ -231,7 +207,7 @@ public class Seeker : Agent
             bool hits_wall = Physics.Raycast(agent_position, rayDirection, out RaycastHit wall_ray, viewDistance, obstacleMask);
             bool hits_agent = Physics.Raycast(agent_position, rayDirection, out RaycastHit agent_ray, viewDistance, agentMask);
             if (hits_wall && hits_agent)
-            {
+            {   
                 if (Vector3.Distance(agent_position, wall_ray.point) > Vector3.Distance(agent_position, agent_ray.point)) 
                 {
                     return true;
@@ -314,13 +290,6 @@ public class Seeker : Agent
     {
         if (other.TryGetComponent<Goal>(out Goal goal))
         {
-            SetReward(1.0f);
-            otherAgent.Eliminate();
-            EndEpisode();
-        }
-        if (other.TryGetComponent<Hider>(out Hider hider))
-        {
-            Debug.Log("Contact");
             SetReward(1.0f);
             otherAgent.Eliminate();
             EndEpisode();

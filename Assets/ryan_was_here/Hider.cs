@@ -20,8 +20,8 @@ public class Hider : Agent
     public float viewDistance = 100f;
     public int timeStep;
     //private DebugSideChannel debugSideChannel;
-    public BreadCrumbs breadCrumbs;
     public StepTrace stepTrace;
+    public PreDefinedRoutes preDefinedRoutes;
 
     void Start()
     {
@@ -75,7 +75,7 @@ public class Hider : Agent
 
     public override void OnEpisodeBegin()
     {
-        Vector3 testPosition = new Vector3(0.5f, .5f, 0.5f);
+        Vector3 testPosition = new Vector3(0.5f, 0.5f, 5.5f);
         Vector3 testAngle = new Vector3(0, 0, 0);
         timeStep = 0;
 
@@ -87,17 +87,20 @@ public class Hider : Agent
         {
             planeRenderer.material.color = new Color(0.23f, 0.23f, 0.23f, 1f); 
         }
+        preDefinedRoutes = new PreDefinedRoutes();
     }
 
     public override void CollectObservations(VectorSensor sensor)
     {
         sensor.AddObservation(transform.localPosition);
-        //sensor.AddObservation(otherAgent.transform.localPosition);
+        // sensor.AddObservation(otherAgent.transform.localPosition);
         sensor.AddObservation(timeStep);
         int x = (int)transform.localPosition[0];
-        int z = (int)transform.localPosition[2];        
-        float[] steptrace = System.Array.ConvertAll(otherAgent.stepTrace.GetSurroundingSteps(x, z), item => (float)item);
+        int z = (int)transform.localPosition[2];      
+        float[] steptrace = otherAgent.stepTrace.GetSurroundingSteps(x, z);  
         sensor.AddObservation(steptrace);
+        // DebugLogArray(otherAgent.stepTrace.GetSteps());
+        // DebugStepTrace(steptrace);
     }
 
     void DebugLogArray(int[,] array)
@@ -121,11 +124,12 @@ public class Hider : Agent
         {
             return;
         }
-        int action = actions.DiscreteActions[0];
+        //int action = actions.DiscreteActions[0];
+        int action = preDefinedRoutes.NextAction();
 
+        //Debug.LogFormat("Hider x: {0} y: {1} z: {2}", transform.localPosition[0], transform.localPosition[1], transform.localPosition[2]);
         stepTrace.IncrementAll();
-        Debug.LogFormat("hider x {0}", transform.localPosition[0]);
-        stepTrace.UpdateSteps((int)transform.localPosition[0], (int)transform.localPosition[2]);
+        stepTrace.UpdateSteps( ((int)transform.localPosition[0])+10, ((int)transform.localPosition[2])+10);
 
         timeStep += 1;
 
@@ -161,12 +165,16 @@ public class Hider : Agent
         zeroAdjustedCurrentPosition.x = (float)Math.Round(zeroAdjustedCurrentPosition.x);
         zeroAdjustedCurrentPosition.y = (float)Math.Round(zeroAdjustedCurrentPosition.y);
         zeroAdjustedCurrentPosition.z = (float)Math.Round(zeroAdjustedCurrentPosition.z);
-        bool contains = ContainsVector3(obstacles, zeroAdjustedCurrentPosition);
-        if (!contains)
+        //bool contains = ContainsVector3(obstacles, zeroAdjustedCurrentPosition);
+        Vector3 potentialPosition = new Vector3(zeroAdjustedCurrentPosition.x + 0.5f, zeroAdjustedCurrentPosition.y + 0.5f, zeroAdjustedCurrentPosition.z + 0.5f);
+        Vector3 halfExtents = Vector3.one * 0.1f;
+        Collider[] hitColliders = Physics.OverlapBox(potentialPosition, halfExtents, Quaternion.identity, obstacleMask);
+
+        if (hitColliders.Length == 0)
         {
-            if (zeroAdjustedCurrentPosition.x >= 0 && zeroAdjustedCurrentPosition.x <= 9 && zeroAdjustedCurrentPosition.z >= 0 && zeroAdjustedCurrentPosition.z <= 9)
+            if (zeroAdjustedCurrentPosition.x >= -10 && zeroAdjustedCurrentPosition.x <= 9 && zeroAdjustedCurrentPosition.z >= -10 && zeroAdjustedCurrentPosition.z <= 9)
             {
-                transform.localPosition = new Vector3(zeroAdjustedCurrentPosition.x + 0.5f, zeroAdjustedCurrentPosition.y + 0.5f, zeroAdjustedCurrentPosition.z + 0.5f);
+                transform.localPosition = potentialPosition;
                 if (moveDirection != Vector3.zero)
                 {
                     transform.rotation = Quaternion.LookRotation(moveDirection);
@@ -175,7 +183,7 @@ public class Hider : Agent
         }
 
         bool isOtherAgentVisible = IsOtherAgentVisible();
-        if ( (timeStep + 1) % 50 == 0) {
+        if ( (timeStep + 1) % 100 == 0) {
             Debug.Log("Out of time");
             stepTrace.Reset();
             SetReward(1.0f);
@@ -185,11 +193,11 @@ public class Hider : Agent
 
     public bool IsOtherAgentVisible()
     {
-        Vector3 agent_position = transform.position;
+        Vector3 agent_position = transform.localPosition;
         Vector3 agent_angle = transform.localEulerAngles;
         Vector3 agent_direction = Quaternion.Euler(agent_angle) * Vector3.forward;
 
-        Vector3 enemy_position = otherAgent.transform.position;
+        Vector3 enemy_position = otherAgent.transform.localPosition;
         Vector3 rayDirection = (enemy_position - agent_position).normalized;
         float angleToTarget = Vector3.Angle(agent_direction, rayDirection);
         float halfAngle = viewAngle / 2f;
