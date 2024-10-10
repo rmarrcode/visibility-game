@@ -7,10 +7,10 @@ public class PreDefinedRoutes
         
     int[][] routes = new int[][]
     {
-        //new int[] {4, 1, 1, 1, 1, 4, 4},                
-        //new int[] {3, 1, 1, 1, 1, 1, 1, 4, 4, 4, 4},   
-        new int[] {3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 4, 4, 4, 4, 4, 4}
-        //new int[] {1, 1, 3, 1} 
+        new int[] {4, 1, 1, 1, 1, 4, 4},                
+        new int[] {3, 1, 1, 1, 1, 1, 1, 4, 4, 4, 4},   
+        new int[] {3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 4, 4, 4, 4, 4, 4},
+        new int[] {1, 1, 3, 1} 
     };
 
     public PreDefinedRoutes()
