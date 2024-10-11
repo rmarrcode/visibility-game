@@ -99,14 +99,14 @@ public class Seeker : Agent
         float[] surrounding_steps = otherAgent.stepTrace.GetSurroundingSteps(((int)transform.localPosition[0])+10, ((int)transform.localPosition[2])+10);
         sensor.AddObservation(surrounding_steps);
         // Debug.LogFormat("x {0} z {1}", x, z);
-        //DebugLogArray(otherAgent.stepTrace.GetSteps());
-        DebugStepTrace(surrounding_steps);
+        // DebugLogArray(otherAgent.stepTrace.GetSteps());
+        // DebugStepTrace(surrounding_steps);
         float bcreward = 0;
         for (int i = 0; i < 8; i++)
         {
             bcreward += surrounding_steps[i];
         }
-        Debug.Log(bcreward);
+        //Debug.Log(bcreward);
         SetReward(bcreward);
     }
 
@@ -201,14 +201,14 @@ public class Seeker : Agent
         bool isOtherAgentVisible = IsOtherAgentVisible();
         if (isOtherAgentVisible)
         {
-            Debug.Log("Found");
+            //Debug.Log("Found");
             StartCoroutine(ChangePlaneColorTemporarily(Color.red, .5f));
-            SetReward(10.0f);
+            SetReward(100.0f);
             otherAgent.Eliminate();
             EndEpisode();
         }
         if ( (timeStep + 1) % 100 == 0) {
-            Debug.Log("Out of time");
+            //Debug.Log("Out of time");
             stepTrace.Reset();
             //SetReward(-1.0f);
             EndEpisode();
@@ -218,11 +218,14 @@ public class Seeker : Agent
     public bool IsOtherAgentVisible()
     {
         Vector3 agent_position = transform.localPosition;
+        //Debug.LogFormat("x:{0} y:{1} z:{2}", agent_position[0], agent_position[1], agent_position[2]);
         Vector3 agent_angle = transform.localEulerAngles;
         Vector3 agent_direction = Quaternion.Euler(agent_angle) * Vector3.forward;
 
         Vector3 enemy_position = otherAgent.transform.localPosition;
+        //Debug.LogFormat("enemy: x:{0} y:{1} z:{2}", enemy_position[0], enemy_position[1], enemy_position[2]);
         Vector3 rayDirection = (enemy_position - agent_position).normalized;
+        //Debug.LogFormat("ray: x:{0} y:{1} z:{2}", rayDirection[0], rayDirection[1], rayDirection[2]);
         float angleToTarget = Vector3.Angle(agent_direction, rayDirection);
         float halfAngle = viewAngle / 2f;
 
@@ -230,6 +233,7 @@ public class Seeker : Agent
         {
             bool hits_wall = Physics.Raycast(agent_position, rayDirection, out RaycastHit wall_ray, viewDistance, obstacleMask);
             bool hits_agent = Physics.Raycast(agent_position, rayDirection, out RaycastHit agent_ray, viewDistance, agentMask);
+            //Debug.LogFormat("hits wall {0} hits agent {1}", hits_wall, hits_agent);
             if (hits_wall && hits_agent)
             {
                 if (Vector3.Distance(agent_position, wall_ray.point) > Vector3.Distance(agent_position, agent_ray.point)) 
@@ -320,8 +324,8 @@ public class Seeker : Agent
         }
         if (other.TryGetComponent<Hider>(out Hider hider))
         {
-            Debug.Log("Contact");
-            SetReward(1.0f);
+            //Debug.Log("Contact");
+            SetReward(100.0f);
             otherAgent.Eliminate();
             EndEpisode();
         }

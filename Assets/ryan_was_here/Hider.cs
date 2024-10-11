@@ -94,7 +94,7 @@ public class Hider : Agent
     {
         sensor.AddObservation(transform.localPosition);
         // sensor.AddObservation(otherAgent.transform.localPosition);
-        sensor.AddObservation(timeStep);
+        //sensor.AddObservation(timeStep);
         int x = (int)transform.localPosition[0];
         int z = (int)transform.localPosition[2];      
         float[] steptrace = otherAgent.stepTrace.GetSurroundingSteps(x, z);  
@@ -184,7 +184,7 @@ public class Hider : Agent
 
         bool isOtherAgentVisible = IsOtherAgentVisible();
         if ( (timeStep + 1) % 100 == 0) {
-            Debug.Log("Out of time");
+            //Debug.Log("Out of time");
             stepTrace.Reset();
             SetReward(1.0f);
             EndEpisode();
