@@ -96,24 +96,24 @@ public class Seeker : Agent
         int z = (int)transform.localPosition[2];        
         //float[] steptrace = System.Array.ConvertAll(otherAgent.stepTrace.GetSurroundingSteps(x, z), item => (float)item);
         
-        float[] surrounding_steps = otherAgent.stepTrace.GetSurroundingSteps(((int)transform.localPosition[0])+10, ((int)transform.localPosition[2])+10);
+        float[] surrounding_steps = otherAgent.stepTrace.GetSurroundingStepsObs((int)Mathf.Floor(transform.localPosition[0])+10, (int)Mathf.Floor(transform.localPosition[2])+10);
         sensor.AddObservation(surrounding_steps);
         // Debug.LogFormat("x {0} z {1}", x, z);
-        // DebugLogArray(otherAgent.stepTrace.GetSteps());
-        // DebugStepTrace(surrounding_steps);
-        float bcreward = 0;
-        for (int i = 0; i < 8; i++)
-        {
-            bcreward += surrounding_steps[i];
-        }
-        //Debug.Log(bcreward);
+        //DebugLogArray(otherAgent.stepTrace.GetSteps());
+        //DebugStepTrace(surrounding_steps);
+        float bcreward = otherAgent.stepTrace.GetSurroundingStepsReward((int)Mathf.Floor(transform.localPosition[0])+10, (int)Mathf.Floor(transform.localPosition[2])+10);
+        // for (int i = 0; i < surrounding_steps.Length; i++)
+        // {
+        //     bcreward += surrounding_steps[i];
+        // }
+        //Debug.LogFormat("bcr: {0}", bcreward);
         SetReward(bcreward);
     }
 
     void DebugStepTrace(float[] arr)
     {
         string arrayOutput = "";
-        for (int i = 0; i < 8; i++) 
+        for (int i = 0; i < arr.Length; i++) 
         {
             arrayOutput += arr[i] + "\t";
         }
@@ -203,13 +203,15 @@ public class Seeker : Agent
         {
             //Debug.Log("Found");
             StartCoroutine(ChangePlaneColorTemporarily(Color.red, .5f));
+            Debug.Log("Reward: 100");
             SetReward(100.0f);
             otherAgent.Eliminate();
             EndEpisode();
         }
-        if ( (timeStep + 1) % 100 == 0) {
+        if ( (timeStep + 1) % 150 == 0) {
             //Debug.Log("Out of time");
             stepTrace.Reset();
+            SetReward(0);
             //SetReward(-1.0f);
             EndEpisode();
         }
@@ -324,7 +326,7 @@ public class Seeker : Agent
         }
         if (other.TryGetComponent<Hider>(out Hider hider))
         {
-            //Debug.Log("Contact");
+            Debug.Log("Contact");
             SetReward(100.0f);
             otherAgent.Eliminate();
             EndEpisode();

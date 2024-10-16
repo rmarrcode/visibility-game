@@ -92,13 +92,13 @@ public class Hider : Agent
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        sensor.AddObservation(transform.localPosition);
+        //sensor.AddObservation(transform.localPosition);
         // sensor.AddObservation(otherAgent.transform.localPosition);
         //sensor.AddObservation(timeStep);
         int x = (int)transform.localPosition[0];
         int z = (int)transform.localPosition[2];      
-        float[] steptrace = otherAgent.stepTrace.GetSurroundingSteps(x, z);  
-        sensor.AddObservation(steptrace);
+        //float[] steptrace = otherAgent.stepTrace.GetSurroundingSteps(x, z);  
+        //sensor.AddObservation(steptrace);
         // DebugLogArray(otherAgent.stepTrace.GetSteps());
         // DebugStepTrace(steptrace);
     }
@@ -183,7 +183,7 @@ public class Hider : Agent
         }
 
         bool isOtherAgentVisible = IsOtherAgentVisible();
-        if ( (timeStep + 1) % 100 == 0) {
+        if ( (timeStep + 1) % 150 == 0) {
             //Debug.Log("Out of time");
             stepTrace.Reset();
             SetReward(1.0f);
