@@ -5,7 +5,7 @@ behaviors:
       batch_size: 50
       buffer_size: 500
       learning_rate: 0.0003
-      beta: 1e2
+      beta: 1e-2
       epsilon: 0.3
       lambd: 0.95
       num_epoch: 3
@@ -31,7 +31,6 @@ behaviors:
     init_path: null
     keep_checkpoints: 5
     checkpoint_interval: 500000
-    max_steps: 10000000000
-    time_horizon: 100
+    max_steps: 5000000000
+    time_horizon: 1024
     summary_freq: 50000
-    threaded: false
