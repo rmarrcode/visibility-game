@@ -44,8 +44,8 @@ public class Seeker : Agent
         {
             planeRenderer.material.color = new Color(0.23f, 0.23f, 0.23f, 1f); 
         }
-        //debugSideChannel = new DebugSideChannel();
-        //SideChannelManager.RegisterSideChannel(debugSideChannel);
+        debugSideChannel = new DebugSideChannel();
+        SideChannelManager.RegisterSideChannel(debugSideChannel);
     }
 
     private HashSet<Vector3> obstacles = new HashSet<Vector3>
@@ -203,6 +203,7 @@ public class Seeker : Agent
         {
             //Debug.Log("Found");
             StartCoroutine(ChangePlaneColorTemporarily(Color.red, .5f));
+            debugSideChannel.SendDebugMessage("Found");
             Debug.Log("Reward: 100");
             SetReward(100.0f);
             otherAgent.Eliminate();
