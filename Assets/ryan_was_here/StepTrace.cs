@@ -21,18 +21,18 @@ public class StepTrace
     }
 
     public void Reset() {
-        steps = new float[20, 20];
-        for (int x = 0; x < 20; x++)
+        steps = new float[30, 30];
+        for (int x = 0; x < 30; x++)
         {
-            for (int z = 0; z < 20; z++)
+            for (int z = 0; z < 30; z++)
             {
                 steps[x, z] = 0;
             }
         }
-        stepsRewards = new float[20, 20];
-        for (int x = 0; x < 20; x++)
+        stepsRewards = new float[30, 30];
+        for (int x = 0; x < 30; x++)
         {
-            for (int z = 0; z < 20; z++)
+            for (int z = 0; z < 30; z++)
             {
                 stepsRewards[x, z] = 0;
             }
@@ -41,9 +41,9 @@ public class StepTrace
 
     public void IncrementAll()
     {
-        for (int x = 0; x < 20; x++)
+        for (int x = 0; x < 30; x++)
         {
-            for (int z = 0; z < 20; z++)
+            for (int z = 0; z < 30; z++)
             {
                 float decayed = steps[x, z] - 0.025f;
                 steps[x, z] = decayed > 0 ? decayed : 0;
@@ -61,6 +61,7 @@ public class StepTrace
         // {
         //     throw new IndexOutOfRangeException($"Index out of bounds: z = {z}");
         // }
+        // Debug.LogFormat("Updating steps at {0}, {1}", x, z);
         steps[x, z] = 1;
         stepsRewards[x, z] = 1;
     }
@@ -71,7 +72,7 @@ public class StepTrace
 
     private bool InBounds(int x, int z) 
     {
-        if (x < 0 || x >= 20 || z < 0 || z >= 20)
+        if (x < 0 || x >= 30 || z < 0 || z >= 30)
         {
             return false;
         }

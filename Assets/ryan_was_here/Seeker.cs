@@ -74,7 +74,7 @@ public class Seeker : Agent
 
     public override void OnEpisodeBegin()
     {
-        Vector3 testPosition = new Vector3(9.5f, 0.5f, 0.5f);
+        Vector3 testPosition = new Vector3(15.5f, 0.5f, 15.5f);
         Vector3 testAngle = new Vector3(0f, 180f, 0f);
         timeStep = 0;
 
@@ -88,6 +88,13 @@ public class Seeker : Agent
         }
     }
 
+    public int[] localPositionToIndx() {
+        return new int[] {
+            (int)Mathf.Floor(transform.localPosition[0]) + 5,
+            (int)Mathf.Floor(transform.localPosition[1]) + 5
+        };
+    }
+
     public override void CollectObservations(VectorSensor sensor)
     {
         sensor.AddObservation(transform.localPosition);
@@ -96,12 +103,13 @@ public class Seeker : Agent
         int z = (int)transform.localPosition[2];        
         //float[] steptrace = System.Array.ConvertAll(otherAgent.stepTrace.GetSurroundingSteps(x, z), item => (float)item);
         
-        float[] surrounding_steps = otherAgent.stepTrace.GetSurroundingStepsObs((int)Mathf.Floor(transform.localPosition[0])+10, (int)Mathf.Floor(transform.localPosition[2])+10);
+        int[] position_idx = localPositionToIndx();
+        float[] surrounding_steps = otherAgent.stepTrace.GetSurroundingStepsObs(position_idx[0], position_idx[1]);
         sensor.AddObservation(surrounding_steps);
         // Debug.LogFormat("x {0} z {1}", x, z);
         //DebugLogArray(otherAgent.stepTrace.GetSteps());
         //DebugStepTrace(surrounding_steps);
-        float bcreward = otherAgent.stepTrace.GetSurroundingStepsReward((int)Mathf.Floor(transform.localPosition[0])+10, (int)Mathf.Floor(transform.localPosition[2])+10);
+        float bcreward = otherAgent.stepTrace.GetSurroundingStepsReward(position_idx[0], position_idx[1]);
         // for (int i = 0; i < surrounding_steps.Length; i++)
         // {
         //     bcreward += surrounding_steps[i];
@@ -145,7 +153,8 @@ public class Seeker : Agent
         int action = actions.DiscreteActions[0];
 
         stepTrace.IncrementAll();
-        stepTrace.UpdateSteps(((int)transform.localPosition[0])+10, ((int)transform.localPosition[2])+10);
+        int[] position_idx = localPositionToIndx();
+        stepTrace.UpdateSteps(position_idx[0], position_idx[1]);
 
         timeStep += 1;
 
@@ -188,7 +197,8 @@ public class Seeker : Agent
 
         if (hitColliders.Length == 0)
         {
-            if (zeroAdjustedCurrentPosition.x >= -10 && zeroAdjustedCurrentPosition.x <= 9 && zeroAdjustedCurrentPosition.z >= -10 && zeroAdjustedCurrentPosition.z <= 9)
+            bool boundary = (zeroAdjustedCurrentPosition.x >= -5 && zeroAdjustedCurrentPosition.x <= 24 && zeroAdjustedCurrentPosition.z >= -5 && zeroAdjustedCurrentPosition.z <= 24);
+            if (boundary)
             {
                 transform.localPosition = potentialPosition;
                 if (moveDirection != Vector3.zero)
