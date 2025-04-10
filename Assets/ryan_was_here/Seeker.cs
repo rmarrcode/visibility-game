@@ -106,15 +106,17 @@ public class Seeker : Agent
         int[] position_idx = localPositionToIndx();
         float[] surrounding_steps = otherAgent.stepTrace.GetSurroundingStepsObs(position_idx[0], position_idx[1]);
         sensor.AddObservation(surrounding_steps);
+
+        //Debug.LogFormat("Surrounding steps: {0}", string.Join(", ", surrounding_steps));
         // Debug.LogFormat("x {0} z {1}", x, z);
         //DebugLogArray(otherAgent.stepTrace.GetSteps());
         //DebugStepTrace(surrounding_steps);
         float bcreward = otherAgent.stepTrace.GetSurroundingStepsReward(position_idx[0], position_idx[1]);
-        // for (int i = 0; i < surrounding_steps.Length; i++)
-        // {
-        //     bcreward += surrounding_steps[i];
-        // }
         //Debug.LogFormat("bcr: {0}", bcreward);
+
+        float[,] steps = otherAgent.stepTrace.GetSteps();
+        //DebugLogArray(steps);
+
         SetReward(bcreward);
     }
 

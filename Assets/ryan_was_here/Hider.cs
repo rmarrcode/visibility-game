@@ -117,6 +117,13 @@ public class Hider : Agent
         Debug.Log(arrayOutput);  
     }
 
+    public int[] localPositionToIndx() {
+        return new int[] {
+            (int)Mathf.Floor(transform.localPosition[0]) + 5,
+            (int)Mathf.Floor(transform.localPosition[1]) + 5
+        };
+    }
+
     public override void OnActionReceived(ActionBuffers actions)
     {
  
@@ -129,7 +136,8 @@ public class Hider : Agent
 
         //Debug.LogFormat("Hider x: {0} y: {1} z: {2}", transform.localPosition[0], transform.localPosition[1], transform.localPosition[2]);
         stepTrace.IncrementAll();
-        stepTrace.UpdateSteps( ((int)transform.localPosition[0])+10, ((int)transform.localPosition[2])+10);
+        int[] position_idx = localPositionToIndx();
+        stepTrace.UpdateSteps(position_idx[0], position_idx[1]);
 
         timeStep += 1;
 
