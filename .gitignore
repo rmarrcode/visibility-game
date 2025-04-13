@@ -74,3 +74,4 @@ crashlytics-build.properties
 wandb/*
 Assets/ryan_was_here/results/*
 
+Assets/ryan_was_here/models-big/*

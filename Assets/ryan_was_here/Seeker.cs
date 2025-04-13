@@ -90,8 +90,8 @@ public class Seeker : Agent
 
     public int[] localPositionToIndx() {
         return new int[] {
-            (int)Mathf.Floor(transform.localPosition[0]) + 5,
-            (int)Mathf.Floor(transform.localPosition[1]) + 5
+            (int)Mathf.RoundToInt(transform.localPosition[0] - 0.5f) + 5,
+            (int)Mathf.RoundToInt(transform.localPosition[2] - 0.5f) + 5
         };
     }
 
@@ -104,6 +104,7 @@ public class Seeker : Agent
         //float[] steptrace = System.Array.ConvertAll(otherAgent.stepTrace.GetSurroundingSteps(x, z), item => (float)item);
         
         int[] position_idx = localPositionToIndx();
+        //Debug.LogFormat("Seeker position_idx: {0}, {1}", position_idx[0], position_idx[1]);
         float[] surrounding_steps = otherAgent.stepTrace.GetSurroundingStepsObs(position_idx[0], position_idx[1]);
         sensor.AddObservation(surrounding_steps);
 
@@ -117,6 +118,7 @@ public class Seeker : Agent
         float[,] steps = otherAgent.stepTrace.GetSteps();
         //DebugLogArray(steps);
 
+        //Debug.LogFormat("bcr: {0}", bcreward);
         SetReward(bcreward);
     }
 
@@ -215,7 +217,7 @@ public class Seeker : Agent
         {
             //Debug.Log("Found");
             StartCoroutine(ChangePlaneColorTemporarily(Color.red, .5f));
-            debugSideChannel.SendDebugMessage("Found");
+            //debugSideChannel.SendDebugMessage("Found");
             Debug.Log("Reward: 100");
             SetReward(100.0f);
             otherAgent.Eliminate();
