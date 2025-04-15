@@ -75,7 +75,7 @@ public class Hider : Agent
 
     public override void OnEpisodeBegin()
     {
-        Vector3 testPosition = new Vector3(0.5f, 0.5f, 5.5f);
+        Vector3 testPosition = new Vector3(9.5f, 0.5f, -2.5f);
         Vector3 testAngle = new Vector3(0, 0, 0);
         timeStep = 0;
 
